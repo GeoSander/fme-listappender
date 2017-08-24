@@ -1,44 +1,44 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <TRANSFORMER
-# TRANSFORMER_BEGIN ListAppender,1,Attributes,409a3f16-88a9-11e7-acd4-c42c033923d4,"Linked Always",No,NO_PARALLELISM,,No,17291,YES,No,34
+# TRANSFORMER_BEGIN ListAppender,1,Attributes,5e4b63c4-88c6-11e7-8682-c42c033923d4,"Linked Always",No,NO_PARALLELISM,,No,17291,YES,No,34
 # 
 # TRANSFORMER_END
-#!   FME_DOCUMENT_GUID="409a3f16-88a9-11e7-acd4-c42c033923d4"
-#!   PYTHON_COMPATIBILITY="34"
-#!   MARKDOWN_DESCRIPTION=""
-#!   WORKSPACE_VERSION="1"
-#!   ITERATION_COUNT_ATTR=""
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   FME_DOCUMENT_PRIORGUID="8351123a-889f-11e7-b861-c42c033923d4,409a3f16-88a9-11e7-acd4-c42c033923d4,37cad6ea-88ac-11e7-87f7-c42c033923d4,8ba35bb8-88af-11e7-a750-c42c033923d4,0a10ef9a-88b2-11e7-960b-c42c033923d4,f31b735c-88c3-11e7-b88b-c42c033923d4"
+#!   VIEW_POSITION="-369.004 93.0009"
 #!   HISTORY=""
-#!   FME_BUILD_NUM="17291"
-#!   PASSWORD=""
-#!   FME_PROCESS_GROUP_BY=""
-#!   CATEGORY="Attributes"
+#!   FME_PROCESS_COUNT="NO_PARALLELISM"
 #!   SHOW_INFO_NODES="true"
 #!   SHOW_ANNOTATIONS="true"
-#!   FME_PROCESS_COUNT="NO_PARALLELISM"
-#!   ZOOM_SCALE="100"
-#!   DOC_EXTENTS="1532.01 499.003"
-#!   DOC_TOP_LEFT="-523.999 -499.003"
-#!   WARN_INVALID_XFORM_PARAM="Yes"
-#!   USE_MARKDOWN="YES"
-#!   FMX_INSERT_MODE="Linked Always"
-#!   LAST_SAVE_DATE="2017-08-24T10:52:47"
-#!   FME_PROCESS_GROUPS_ORDERED="No"
-#!   FME_SERVER_SERVICES=""
-#!   VIEW_POSITION="-369.004 96.001"
-#!   XFORM_DEPRECATED="No"
-#!   FMX_ATTRIBUTE_PROPOGATION_MODE="AUTO"
-#!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   MAX_LOOP_ITERATIONS=""
-#!   ATTR_TYPE_ENCODING="SDF"
-#!   DESCRIPTION=""
-#!   MARKDOWN_USAGE=""
+#!   FME_PROCESS_GROUP_BY=""
+#!   DOC_EXTENTS="1532.01 1e-05"
+#!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   USAGE=""
+#!   FMX_INSERT_MODE="Linked Always"
 #!   TITLE="ListAppender"
+#!   FMX_ATTRIBUTE_PROPOGATION_MODE="AUTO"
+#!   FME_LINKED_TRANSFORMER_VERSION="1"
+#!   ZOOM_SCALE="100"
+#!   FME_BUILD_NUM="17291"
+#!   XFORM_DEPRECATED="No"
+#!   DESCRIPTION=""
+#!   USE_MARKDOWN="YES"
+#!   LAST_SAVE_DATE="2017-08-24T14:29:17"
+#!   PYTHON_COMPATIBILITY="34"
+#!   DOC_TOP_LEFT="-523.999 -8.3984e-07"
+#!   FME_DOCUMENT_GUID="5e4b63c4-88c6-11e7-8682-c42c033923d4"
 #!   LAST_SAVE_BUILD="FME(R) 2017.0.1.1 (20170512 - Build 17291 - macosx)"
 #!   BLOCKED_LOOPING="No"
-#!   FME_LINKED_TRANSFORMER_VERSION="1"
-#!   FME_DOCUMENT_PRIORGUID="8351123a-889f-11e7-b861-c42c033923d4"
+#!   WORKSPACE_VERSION="1"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   FME_SERVER_SERVICES=""
+#!   MARKDOWN_DESCRIPTION=""
+#!   PASSWORD=""
+#!   CATEGORY="Attributes"
+#!   FME_PROCESS_GROUPS_ORDERED="No"
+#!   MARKDOWN_USAGE=""
+#!   ITERATION_COUNT_ATTR=""
 #! >
 #! <DATASETS>
 #! </DATASETS>
@@ -57,19 +57,14 @@
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI TEXT_EDIT_OR_NUM APPEND_VALUES Values To Append:"
+#!   GUI_LINE="GUI GUI_LINE_TABLE_OR_ATTR APPEND_VALUES &quot;Attributes&quot;%&quot;NULLABLE TEXT_EDIT_OR_NUM_OR_ATTR_ENCODED NEW_ATTR&quot; Values To Append:"
 #!   DEFAULT_VALUE=""
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI GUI_LINE_TABLE_OR_ATTR ATTR_TABLE ROW_KEYWORD:ATTR_ACTION%EXPLICIT_SUPPORTED_VALUES%NO_LABEL%HIDE_COLS:0,2%&quot;Input Attribute&quot;%&quot;OPTIONAL ATTR_OR_ATTR_ENCODED EXISTING_ATTR NO_ICON%NO_EXPAND_LIST%ALLOW_NEW%&quot;%&quot;New Attribute&quot;%&quot;ATTR_OR_ATTR_ENCODED OUT_ATTR NO_ICON%ALLOW_NEW&quot;%&quot;Action&quot;%&quot;LITERAL LOOKUP_CHOICE ACTION Set&lt;space&gt;Value,SET_TO&quot;%&quot;Attribute Value&quot;%&quot;OPTIONAL NO_OP NULLABLE TEXT_EDIT_OR_NUM_MULTI_FEATURE_OR_ATTR DEF_VAL not_used&quot; Created Attributes:"
-#!   DEFAULT_VALUE=""
-#!   IS_STAND_ALONE="false"
-#! />
-#! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI GUI_LINE_TABLE ATTR_VALUES NO_LABEL%ROW_DELIM:,%&quot;Attributes&quot;%&quot;STRING_ENCODED ATTRIBUTES&quot; Possible Attribute Values:"
-#!   DEFAULT_VALUE="&lt;lt&gt;Empty&lt;gt&gt;,&lt;lt&gt;Missing&lt;gt&gt;,&lt;lt&gt;Null&lt;gt&gt;,&lt;lt&gt;Unfiltered&lt;gt&gt;"
-#!   IS_STAND_ALONE="false"
+#!   GUI_LINE="GUI IGNORE TEXT_EDIT_PYTHON_PARM APPEND_VALUES_WWJD Python Script:"
+#!   DEFAULT_VALUE="return&lt;space&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;APPEND_VALUES&lt;apos&gt;&lt;closebracket&gt;"
+#!   IS_STAND_ALONE="true"
 #! />
 #! </GLOBAL_PARAMETERS>
 #! <COMMENTS>
@@ -93,15 +88,17 @@
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="__append_list" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="PYTHONSOURCE" PARM_VALUE="import&lt;space&gt;fme&lt;lf&gt;import&lt;space&gt;fmeobjects&lt;lf&gt;&lt;lf&gt;class&lt;space&gt;ListAppender&lt;openparen&gt;object&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;__init__&lt;openparen&gt;self&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.log&lt;space&gt;=&lt;space&gt;fmeobjects.FMELogFile&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;input&lt;openparen&gt;self&lt;comma&gt;feature&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;append_list&lt;space&gt;=&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;__append_list&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.log.logMessageString&lt;openparen&gt;&lt;apos&gt;List&lt;space&gt;to&lt;space&gt;append:&lt;space&gt;&lt;opencurly&gt;&lt;closecurly&gt;&lt;apos&gt;.format&lt;openparen&gt;append_list&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.pyoutput&lt;openparen&gt;feature&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;close&lt;openparen&gt;self&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;pass"/>
+#!     <XFORM_ATTR ATTR_NAME="__append_values" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="__append_values_wwjd" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="PythonCaller"/>
-#!     <XFORM_PARM PARM_NAME="HIDE_ATTRIBUTES" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PYTHONSYMBOL" PARM_VALUE="ListAppender"/>
-#!     <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="NEW_ATTRIBUTES" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PYTHONSOURCE" PARM_VALUE="import&lt;space&gt;fme&lt;lf&gt;import&lt;space&gt;fmeobjects&lt;lf&gt;&lt;lf&gt;class&lt;space&gt;ListAppender&lt;openparen&gt;object&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;__init__&lt;openparen&gt;self&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.log&lt;space&gt;=&lt;space&gt;fmeobjects.FMELogFile&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.session&lt;space&gt;=&lt;space&gt;fmeobjects.FMESession&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;input&lt;openparen&gt;self&lt;comma&gt;feature&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;append_list&lt;space&gt;=&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;__append_list&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;append_values&lt;space&gt;=&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;__append_values_wwjd&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;append_values:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;append_values&lt;space&gt;=&lt;space&gt;list&lt;openparen&gt;map&lt;openparen&gt;self.session.decodeFromFMEParsableText&lt;comma&gt;&lt;space&gt;append_values.split&lt;openparen&gt;&lt;apos&gt;&lt;space&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.log.logMessageString&lt;openparen&gt;&lt;apos&gt;List&lt;space&gt;to&lt;space&gt;append:&lt;space&gt;&lt;opencurly&gt;&lt;closecurly&gt;&lt;apos&gt;.format&lt;openparen&gt;append_list&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.log.logMessageString&lt;openparen&gt;&lt;apos&gt;Input&lt;space&gt;Values:&lt;space&gt;&lt;opencurly&gt;&lt;closecurly&gt;&lt;apos&gt;.format&lt;openparen&gt;append_values&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;for&lt;space&gt;i&lt;space&gt;in&lt;space&gt;range&lt;openparen&gt;len&lt;openparen&gt;append_values&lt;closeparen&gt;&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;value&lt;space&gt;=&lt;space&gt;append_values&lt;openbracket&gt;i&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;value.startswith&lt;openparen&gt;&lt;apos&gt;&lt;at&gt;&lt;apos&gt;&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;try:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;append_values&lt;openbracket&gt;i&lt;closebracket&gt;&lt;space&gt;=&lt;space&gt;feature.performFunction&lt;openparen&gt;value&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;except&lt;space&gt;FMEException:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;continue&lt;space&gt;&lt;space&gt;#&lt;space&gt;interpret&lt;space&gt;as&lt;space&gt;string&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.log.logMessageString&lt;openparen&gt;&lt;apos&gt;Interpreted&lt;space&gt;Values:&lt;space&gt;&lt;opencurly&gt;&lt;closecurly&gt;&lt;apos&gt;.format&lt;openparen&gt;append_values&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.pyoutput&lt;openparen&gt;feature&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;close&lt;openparen&gt;self&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;pass"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="PythonCaller"/>
+#!     <XFORM_PARM PARM_NAME="PYTHONSYMBOL" PARM_VALUE="ListAppender"/>
+#!     <XFORM_PARM PARM_NAME="NEW_ATTRIBUTES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="HIDE_ATTRIBUTES" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="5"
@@ -115,62 +112,13 @@
 #!   LAST_PARM_EDIT="17291"
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="__append_list" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ParameterFetcher"/>
+#!     <XFORM_ATTR ATTR_NAME="__append_values" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="__append_values_wwjd" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="__append_list $(APPEND_LIST)"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="10"
-#!   TYPE="AttributeCreator"
-#!   VERSION="8"
-#!   POSITION="-6.50031 -290.003"
-#!   BOUNDING_RECT="-6.50031 -290.003 -1 -1"
-#!   ORDER="5e+14"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="17291"
-#! >
-#!     <OUTPUT_FEAT NAME="OUTPUT"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="$(ATTR_TABLE)"/>
-#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="0"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="0"/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="0"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="12"
-#!   TYPE="AttributeFilter"
-#!   VERSION="5"
-#!   POSITION="-33.5006 -499.003"
-#!   BOUNDING_RECT="-33.5006 -499.003 -1 -1"
-#!   ORDER="5e+14"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="17291"
-#! >
-#!     <OUTPUT_FEAT NAME="&lt;lt&gt;EMPTY&lt;gt&gt;"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <OUTPUT_FEAT NAME="&lt;lt&gt;MISSING&lt;gt&gt;"/>
-#!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <OUTPUT_FEAT NAME="&lt;lt&gt;NULL&lt;gt&gt;"/>
-#!     <FEAT_COLLAPSED COLLAPSED="2"/>
-#!     <OUTPUT_FEAT NAME="&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
-#!     <FEAT_COLLAPSED COLLAPSED="3"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ParameterFetcher"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="__append_list $(APPEND_LIST) __append_values $(APPEND_VALUES) __append_values_wwjd $(APPEND_VALUES_WWJD)"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeFilter"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_VALUES" PARM_VALUE="$(ATTR_VALUES)"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_VALUES_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <SUBDOCUMENT_IOS>
@@ -209,28 +157,6 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="11"
-#!   SOURCE_NODE="3"
-#!   TARGET_NODE="10"
-#!   SOURCE_PORT_DESC="0"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="1"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="13"
-#!   SOURCE_NODE="3"
-#!   TARGET_NODE="12"
-#!   SOURCE_PORT_DESC="0"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="2"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
 #!   IDENTIFIER="9"
 #!   SOURCE_NODE="2"
 #!   TARGET_NODE="8"
@@ -265,8 +191,16 @@
 FME_PYTHON_VERSION 34
 DEFAULT_MACRO $(ListAppender_WORKSPACE_NAME)_APPEND_LIST 
 DEFAULT_MACRO $(ListAppender_WORKSPACE_NAME)_APPEND_VALUES 
-DEFAULT_MACRO $(ListAppender_WORKSPACE_NAME)_ATTR_TABLE 
-DEFAULT_MACRO $(ListAppender_WORKSPACE_NAME)_ATTR_VALUES <lt>Empty<gt>,<lt>Missing<gt>,<lt>Null<gt>,<lt>Unfiltered<gt>
+INCLUDE PYTHON
+def ParamFunc():
+  return FME_MacroValues[FME_MacroValues['ListAppender_WORKSPACE_NAME'] + '_' + 'APPEND_VALUES']
+value = ParamFunc()
+macroName = FME_MacroValues['ListAppender_WORKSPACE_NAME'] + '_APPEND_VALUES_WWJD'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
 #! START_HEADER
 #! END_HEADER
 
@@ -274,32 +208,18 @@ LOG_FILTER_MASK -1
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 DEFAULT_MACRO ListAppender_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(ListAppender_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(ListAppender_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(ListAppender_WORKSPACE_NAME)_Input1503564767 Input Splitter"   INPUT FEATURE_TYPE "$(ListAppender_WORKSPACE_NAME)_Input"   OUTPUT FEATURE_TYPE "$(ListAppender_WORKSPACE_NAME)_Input_0_oSdfYpzERWw="   OUTPUT FEATURE_TYPE "$(ListAppender_WORKSPACE_NAME)_Input_1_uu8eWPAW1zI="   OUTPUT FEATURE_TYPE "$(ListAppender_WORKSPACE_NAME)_Input_2_qtymqQGxYpE="
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(ListAppender_WORKSPACE_NAME)_Input1503577757 Input Splitter"   INPUT FEATURE_TYPE "$(ListAppender_WORKSPACE_NAME)_Input"   OUTPUT FEATURE_TYPE "$(ListAppender_WORKSPACE_NAME)_Input"
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * AttrSetFactory    FACTORY_NAME $(ListAppender_WORKSPACE_NAME)_AttributeCreator    INPUT  FEATURE_TYPE "$(ListAppender_WORKSPACE_NAME)_Input_1_uu8eWPAW1zI="    MULTI_FEATURE_MODE NO    NUM_PRIOR_FEATURES 0    NUM_SUBSEQUENT_FEATURES 0 	 NULL_ATTR_MODE NO_OP 	 NULL_ATTR_VALUE 0 	 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV
-
-
-# -------------------------------------------------------------------------
-
-Tcl2 proc $(ListAppender_WORKSPACE_NAME)_ParameterFetcher_doFetch {} {    foreach {name val} {"__append_list {$($(ListAppender_WORKSPACE_NAME)_APPEND_LIST$encode)}"} {         if { [string match {*<at>*} $val] == 1 } {             set val [FME_Execute EvaluateExpression {STRING} $val {$(ListAppender_WORKSPACE_NAME)_ParameterFetcher}];         } elseif {[string match {*FME_CONDITIONAL*} $val] == 1} {             set val [FME_Execute EvaluateExpression {STRING} $val {$(ListAppender_WORKSPACE_NAME)_ParameterFetcher}];         } else {             set val [FME_DecodeTextOrAttr $val];         };       FME_SetAttribute [FME_DecodeText $name] $val    } }
-FACTORY_DEF * TeeFactory    FACTORY_NAME $(ListAppender_WORKSPACE_NAME)_ParameterFetcher    INPUT  FEATURE_TYPE "$(ListAppender_WORKSPACE_NAME)_Input_0_oSdfYpzERWw="    OUTPUT FEATURE_TYPE "$(ListAppender_WORKSPACE_NAME)_ParameterFetcher_OUTPUT"         @Tcl2($(ListAppender_WORKSPACE_NAME)_ParameterFetcher_doFetch)
+Tcl2 proc $(ListAppender_WORKSPACE_NAME)_ParameterFetcher_doFetch {} {    foreach {name val} {"__append_list {$($(ListAppender_WORKSPACE_NAME)_APPEND_LIST$encode)} __append_values {$($(ListAppender_WORKSPACE_NAME)_APPEND_VALUES)} __append_values_wwjd {$($(ListAppender_WORKSPACE_NAME)_APPEND_VALUES_WWJD$encode)}"} {         if { [string match {*<at>*} $val] == 1 } {             set val [FME_Execute EvaluateExpression {STRING} $val {$(ListAppender_WORKSPACE_NAME)_ParameterFetcher}];         } elseif {[string match {*FME_CONDITIONAL*} $val] == 1} {             set val [FME_Execute EvaluateExpression {STRING} $val {$(ListAppender_WORKSPACE_NAME)_ParameterFetcher}];         } else {             set val [FME_DecodeTextOrAttr $val];         };       FME_SetAttribute [FME_DecodeText $name] $val    } }
+FACTORY_DEF * TeeFactory    FACTORY_NAME $(ListAppender_WORKSPACE_NAME)_ParameterFetcher    INPUT  FEATURE_TYPE "$(ListAppender_WORKSPACE_NAME)_Input"    OUTPUT FEATURE_TYPE "$(ListAppender_WORKSPACE_NAME)_ParameterFetcher_OUTPUT"         @Tcl2($(ListAppender_WORKSPACE_NAME)_ParameterFetcher_doFetch)
 
 # -------------------------------------------------------------------------
 
 
 FME_PYTHON_PATH "$(FME_MF_DIR)"
 
-FACTORY_DEF * PythonFactory    FACTORY_NAME $(ListAppender_WORKSPACE_NAME)_PythonCaller    INPUT  FEATURE_TYPE "$(ListAppender_WORKSPACE_NAME)_ParameterFetcher_OUTPUT"    SYMBOL_NAME ListAppender    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf><lf>class<space>ListAppender<openparen>object<closeparen>:<lf><space><space><space><space>def<space>__init__<openparen>self<closeparen>:<lf><space><space><space><space><space><space><space><space>self.log<space>=<space>fmeobjects.FMELogFile<openparen><closeparen><lf><lf><space><space><space><space>def<space>input<openparen>self<comma>feature<closeparen>:<lf><space><space><space><space><space><space><space><space>append_list<space>=<space>feature.getAttribute<openparen><apos>__append_list<apos><closeparen><lf><space><space><space><space><space><space><space><space>self.log.logMessageString<openparen><apos>List<space>to<space>append:<space><opencurly><closecurly><apos>.format<openparen>append_list<closeparen><closeparen><lf><space><space><space><space><space><space><space><space>self.pyoutput<openparen>feature<closeparen><lf><lf><space><space><space><space>def<space>close<openparen>self<closeparen>:<lf><space><space><space><space><space><space><space><space>pass    OUTPUT PYOUTPUT FEATURE_TYPE "$(ListAppender_WORKSPACE_NAME)_PythonCaller_OUTPUT"
+FACTORY_DEF * PythonFactory    FACTORY_NAME $(ListAppender_WORKSPACE_NAME)_PythonCaller    INPUT  FEATURE_TYPE "$(ListAppender_WORKSPACE_NAME)_ParameterFetcher_OUTPUT"    SYMBOL_NAME ListAppender    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf><lf>class<space>ListAppender<openparen>object<closeparen>:<lf><space><space><space><space>def<space>__init__<openparen>self<closeparen>:<lf><space><space><space><space><space><space><space><space>self.log<space>=<space>fmeobjects.FMELogFile<openparen><closeparen><lf><space><space><space><space><space><space><space><space>self.session<space>=<space>fmeobjects.FMESession<openparen><closeparen><lf><lf><space><space><space><space>def<space>input<openparen>self<comma>feature<closeparen>:<lf><space><space><space><space><space><space><space><space>append_list<space>=<space>feature.getAttribute<openparen><apos>__append_list<apos><closeparen><lf><space><space><space><space><space><space><space><space>append_values<space>=<space>feature.getAttribute<openparen><apos>__append_values_wwjd<apos><closeparen><lf><space><space><space><space><space><space><space><space>if<space>append_values:<lf><space><space><space><space><space><space><space><space><space><space><space><space>append_values<space>=<space>list<openparen>map<openparen>self.session.decodeFromFMEParsableText<comma><space>append_values.split<openparen><apos><space><apos><closeparen><closeparen><closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>self.log.logMessageString<openparen><apos>List<space>to<space>append:<space><opencurly><closecurly><apos>.format<openparen>append_list<closeparen><closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>self.log.logMessageString<openparen><apos>Input<space>Values:<space><opencurly><closecurly><apos>.format<openparen>append_values<closeparen><closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>for<space>i<space>in<space>range<openparen>len<openparen>append_values<closeparen><closeparen>:<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>value<space>=<space>append_values<openbracket>i<closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>if<space>value.startswith<openparen><apos><at><apos><closeparen>:<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>append_values<openbracket>i<closebracket><space>=<space>feature.performFunction<openparen>value<closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>except<space>FMEException:<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>continue<space><space>#<space>interpret<space>as<space>string<lf><space><space><space><space><space><space><space><space><space><space><space><space>self.log.logMessageString<openparen><apos>Interpreted<space>Values:<space><opencurly><closecurly><apos>.format<openparen>append_values<closeparen><closeparen><lf><space><space><space><space><space><space><space><space>self.pyoutput<openparen>feature<closeparen><lf><lf><space><space><space><space>def<space>close<openparen>self<closeparen>:<lf><space><space><space><space><space><space><space><space>pass    OUTPUT PYOUTPUT FEATURE_TYPE "$(ListAppender_WORKSPACE_NAME)_PythonCaller_OUTPUT"
 
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * TeeFactory    FACTORY_NAME $(ListAppender_WORKSPACE_NAME)_AttributeFilter    INPUT  FEATURE_TYPE "$(ListAppender_WORKSPACE_NAME)_Input_2_qtymqQGxYpE="    OUTPUT FEATURE_TYPE $(ListAppender_WORKSPACE_NAME)_AttributeFilter_FILTER
-
-FACTORY_DEF * AttributeFilterFactory FACTORY_NAME $(ListAppender_WORKSPACE_NAME)_AttributeFilter_Filter COMMAND_PARM_EVALUATION SINGLE_PASS INPUT FEATURE_TYPE $(ListAppender_WORKSPACE_NAME)_AttributeFilter_FILTER FILTER_ATTRIBUTE  FILTER_VALUES $($(ListAppender_WORKSPACE_NAME)_ATTR_VALUES) <lt>UNFILTERED<gt> <lt>EMPTY<gt> <lt>MISSING<gt> <lt>NULL<gt> OUTPUT $($(ListAppender_WORKSPACE_NAME)_ATTR_VALUES) FEATURE_TYPE $(ListAppender_WORKSPACE_NAME)_AttributeFilter_$($(ListAppender_WORKSPACE_NAME)_ATTR_VALUES) OUTPUT <lt>UNFILTERED<gt> FEATURE_TYPE $(ListAppender_WORKSPACE_NAME)_AttributeFilter_<lt>UNFILTERED<gt> OUTPUT <lt>EMPTY<gt> FEATURE_TYPE $(ListAppender_WORKSPACE_NAME)_AttributeFilter_<lt>EMPTY<gt> OUTPUT <lt>MISSING<gt> FEATURE_TYPE $(ListAppender_WORKSPACE_NAME)_AttributeFilter_<lt>MISSING<gt> OUTPUT <lt>NULL<gt> FEATURE_TYPE $(ListAppender_WORKSPACE_NAME)_AttributeFilter_<lt>NULL<gt>
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(ListAppender_WORKSPACE_NAME)_AttributeFilter <lt>EMPTY<gt> Output Nuker"   INPUT FEATURE_TYPE "$(ListAppender_WORKSPACE_NAME)_AttributeFilter_<lt>EMPTY<gt>"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(ListAppender_WORKSPACE_NAME)_AttributeFilter <lt>MISSING<gt> Output Nuker"   INPUT FEATURE_TYPE "$(ListAppender_WORKSPACE_NAME)_AttributeFilter_<lt>MISSING<gt>"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(ListAppender_WORKSPACE_NAME)_AttributeFilter <lt>NULL<gt> Output Nuker"   INPUT FEATURE_TYPE "$(ListAppender_WORKSPACE_NAME)_AttributeFilter_<lt>NULL<gt>"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(ListAppender_WORKSPACE_NAME)_AttributeFilter <lt>UNFILTERED<gt> Output Nuker"   INPUT FEATURE_TYPE "$(ListAppender_WORKSPACE_NAME)_AttributeFilter_<lt>UNFILTERED<gt>"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(ListAppender_WORKSPACE_NAME)_Output1503564767 Output Collector"   INPUT FEATURE_TYPE "$(ListAppender_WORKSPACE_NAME)_PythonCaller_OUTPUT"   OUTPUT FEATURE_TYPE "$(ListAppender_WORKSPACE_NAME)_Output"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(ListAppender_WORKSPACE_NAME)_Output1503577757 Output Collector"   INPUT FEATURE_TYPE "$(ListAppender_WORKSPACE_NAME)_PythonCaller_OUTPUT"   OUTPUT FEATURE_TYPE "$(ListAppender_WORKSPACE_NAME)_Output"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(ListAppender_WORKSPACE_NAME))}]

@@ -5,8 +5,13 @@
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI GUI_LINE_TABLE ATTR_VALUES NO_LABEL%ROW_DELIM:,%&quot;Attributes&quot;%&quot;STRING_ENCODED ATTRIBUTES&quot; Possible Attribute Values:"
-#!   DEFAULT_VALUE="&lt;lt&gt;Empty&lt;gt&gt;,&lt;lt&gt;Missing&lt;gt&gt;,&lt;lt&gt;Null&lt;gt&gt;,&lt;lt&gt;Unfiltered&lt;gt&gt;"
-#!   IS_STAND_ALONE="false"
+#!   GUI_LINE="GUI GUI_LINE_TABLE_OR_ATTR APPEND_VALUES &quot;Attributes&quot;%&quot;NULLABLE TEXT_EDIT_OR_NUM_OR_ATTR_ENCODED NEW_ATTR&quot; Values To Append:"
+#!   DEFAULT_VALUE=""
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE TEXT_EDIT_PYTHON_PARM APPEND_VALUES_WWJD Python Script:"
+#!   DEFAULT_VALUE="return&lt;space&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;APPEND_VALUES&lt;apos&gt;&lt;closebracket&gt;"
+#!   IS_STAND_ALONE="true"
 #! />
 #! </GLOBAL_PARAMETERS>
