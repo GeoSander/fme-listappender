@@ -1,0 +1,12 @@
+#! <GLOBAL_PARAMETERS>
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI LIST_ATTR_OR_ATTR APPEND_LIST &quot; &quot; List:"
+#!   DEFAULT_VALUE=""
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI GUI_LINE_TABLE ATTR_VALUES NO_LABEL%ROW_DELIM:,%&quot;Attributes&quot;%&quot;STRING_ENCODED ATTRIBUTES&quot; Possible Attribute Values:"
+#!   DEFAULT_VALUE="&lt;lt&gt;Empty&lt;gt&gt;,&lt;lt&gt;Missing&lt;gt&gt;,&lt;lt&gt;Null&lt;gt&gt;,&lt;lt&gt;Unfiltered&lt;gt&gt;"
+#!   IS_STAND_ALONE="false"
+#! />
+#! </GLOBAL_PARAMETERS>
