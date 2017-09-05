@@ -1,0 +1,1550 @@
+#! <?xml version="1.0" encoding="UTF-8" ?>
+#! <WORKSPACE
+#    
+#    
+#    Command-line to run this workspace:
+#    
+#    
+#    /Library/FME/2017.0/fme /Users/sanderschaminee/FME/Transformers/ListAppender/ListAppender.fmw
+#    
+#    
+#!   BEGIN_PYTHON=""
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   SHOW_ANNOTATIONS="true"
+#!   WORKSPACE_VERSION="1"
+#!   LAST_SAVE_DATE="2017-09-05T15:00:55"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   VIEW_POSITION="3664.81 499.15"
+#!   PYTHON_COMPATIBILITY="34"
+#!   DOC_TOP_LEFT="198.023 -2092.38"
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   BEGIN_TCL=""
+#!   LOG_FILE=""
+#!   DESTINATION="NONE"
+#!   FME_BUILD_NUM="17291"
+#!   DESCRIPTION=""
+#!   TITLE=""
+#!   FME_DOCUMENT_PRIORGUID="7025394a-889d-11e7-8a76-c42c033923d4,16a7f8da-88c5-11e7-8924-c42c033923d4,4740737e-8e32-11e7-84db-c42c033923d4,bcb6304a-8e3b-11e7-91d8-c42c033923d4,fc267ab4-8e4a-11e7-a4bb-c42c033923d4,d85f7bd2-8e4d-11e7-8626-c42c033923d4,f8baf630-8e4e-11e7-9e89-c42c033923d4,d3f379ea-8e52-11e7-8cb7-c42c033923d4,6f0f9f2e-8e55-11e7-9a45-c42c033923d4,50da50f2-8e88-11e7-a4db-c42c033923d4,34f18fc0-8e8a-11e7-84bb-c42c033923d4,a270068a-8f02-11e7-b573-c42c033923d4,2eea8bda-8f03-11e7-a045-c42c033923d4,de9f2d74-8f03-11e7-805c-c42c033923d4,21b9fde0-8f05-11e7-a0b2-c42c033923d4,e6144788-8f08-11e7-ac7d-c42c033923d4,04dd1df6-8f28-11e7-a36e-c42c033923d4,064c73e8-8f29-11e7-9693-c42c033923d4,19a81358-8f2d-11e7-acf2-c42c033923d4"
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   FME_DOCUMENT_GUID="931eed80-9232-11e7-9c70-c42c033923d4"
+#!   MARKDOWN_USAGE=""
+#!   HISTORY=""
+#!   SHOW_INFO_NODES="true"
+#!   REDIRECT_TERMINATORS="NONE"
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   SOURCE="NONE"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   FME_SERVER_SERVICES=""
+#!   IGNORE_READER_FAILURE="No"
+#!   END_PYTHON=""
+#!   END_TCL=""
+#!   PASSWORD=""
+#!   SOURCE_ROUTING_FILE=""
+#!   USE_MARKDOWN=""
+#!   CATEGORY=""
+#!   ZOOM_SCALE="68"
+#!   MAX_LOG_FEATURES="200"
+#!   DESTINATION_ROUTING_FILE=""
+#!   MARKDOWN_DESCRIPTION=""
+#!   DOC_EXTENTS="6629.9 2683.48"
+#!   TERMINATE_REJECTED="NO"
+#!   LAST_SAVE_BUILD="FME(R) 2017.0.1.1 (20170512 - Build 17291 - macosx)"
+#!   USAGE=""
+#! >
+#! <DATASETS>
+#! </DATASETS>
+#! <DATA_TYPES>
+#! </DATA_TYPES>
+#! <GEOM_TYPES>
+#! </GEOM_TYPES>
+#! <FEATURE_TYPES>
+#! </FEATURE_TYPES>
+#! <FMESERVER>
+#! </FMESERVER>
+#! <GLOBAL_PARAMETERS>
+#! </GLOBAL_PARAMETERS>
+#! <COMMENTS>
+#! <COMMENT
+#!   IDENTIFIER="39"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;helvetica neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600; color:#000000;&quot;&gt;Output should be:&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Attribute(32 bit unsigned integer): `_parent{0}.child{0}.value&apos; has value `0&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Attribute(32 bit unsigned integer): `_parent{0}.child{1}.value&apos; has value `1&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Attribute(32 bit unsigned integer): `_parent{0}.child{2}.value&apos; has value `2&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Attribute(32 bit unsigned integer): `_parent{1}.child{0}.value&apos; has value `0&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Attribute(32 bit unsigned integer): `_parent{1}.child{1}.value&apos; has value `1&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Attribute(32 bit unsigned integer): `_parent{1}.child{2}.value&apos; has value `2&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(64 bit real)            &#9;&#9;&#9;: `_parent{1}.child{3}.value&apos; has value `12.345&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(encoded: utf-8)         &#9;&#9;: `_parent{1}.child{4}.value&apos; has value `new string&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(string)                 &#9;&#9;&#9;&#9;: `_parent{1}.child{5}.value&apos; is &amp;lt;null&amp;gt;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(encoded: utf-8)         &#9;&#9;: `_parent{1}.child{6}.value&apos; has value `Zürich&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Attribute(32 bit unsigned integer): `_parent{2}.child{0}.value&apos; has value `0&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Attribute(32 bit unsigned integer): `_parent{2}.child{1}.value&apos; has value `1&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Attribute(32 bit unsigned integer): `_parent{2}.child{2}.value&apos; has value `2&apos;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="3839.02 -1415.73"
+#!   TOP_LEFT="3839.02 -1415.73"
+#!   BOTTOM_RIGHT="3838.02 -1414.73"
+#!   BOUNDING_RECT="3839.02 -1415.73 -1 -1"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.196078"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="43"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="45"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;helvetica neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;append to child elements of &lt;span style=&quot; font-weight:600;&quot;&gt;parent{1}&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;(nested list scenario)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="2047.26 -2092.38"
+#!   TOP_LEFT="2047.26 -2092.38"
+#!   BOTTOM_RIGHT="2046.26 -2091.38"
+#!   BOUNDING_RECT="2047.26 -2092.38 -1 -1"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.196078"
+#!   SIZE_POLICY="8"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="42"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="46"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;helvetica neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;append to &lt;span style=&quot; font-weight:600;&quot;&gt;parent{}.value&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="1154.12 -165.481"
+#!   TOP_LEFT="1154.12 -165.481"
+#!   BOTTOM_RIGHT="1153.12 -164.481"
+#!   BOUNDING_RECT="1154.12 -165.481 -1 -1"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.196078"
+#!   SIZE_POLICY="8"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="13"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="47"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;helvetica neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;append starting from &lt;span style=&quot; font-weight:600;&quot;&gt;parent{10}.value&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="1049.08 -701.218"
+#!   TOP_LEFT="1049.08 -701.218"
+#!   BOTTOM_RIGHT="1048.08 -700.218"
+#!   BOUNDING_RECT="1049.08 -701.218 -1 -1"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.196078"
+#!   SIZE_POLICY="8"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="12"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="52"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;helvetica neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;append to &lt;span style=&quot; font-weight:600;&quot;&gt;parent{}&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="1223.3 -1175.81"
+#!   TOP_LEFT="1223.3 -1175.81"
+#!   BOTTOM_RIGHT="1222.3 -1174.81"
+#!   BOUNDING_RECT="1223.3 -1175.81 -1 -1"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.196078"
+#!   SIZE_POLICY="8"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="23"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="53"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;helvetica neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Output should be:&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Attribute(encoded: utf-8)         : `parent{0}&apos; has value `root element&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(64 bit real)            &#9;&#9;: `parent{1}&apos; has value `12.345&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(encoded: utf-8)         : `parent{2}&apos; has value `Zürich&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(encoded: utf-8)         : `parent{3}&apos; has value `new string&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(encoded: utf-8)         : `parent{4}&apos; has value `&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(encoded: utf-8)         : `parent{5}&apos; has value `root element&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(string)                 &#9;&#9;&#9;: `parent{6}&apos; is &amp;lt;null&amp;gt;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(encoded: utf-8)         : `parent{7}&apos; has value `Zürich 2&apos;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="3839.02 -897.433"
+#!   TOP_LEFT="3839.02 -897.433"
+#!   BOTTOM_RIGHT="5319.88 -1383.44"
+#!   BOUNDING_RECT="3839.02 -897.433 1480.86 486.005"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.196078"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="24"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="54"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;helvetica neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600; color:#000000;&quot;&gt;Output should be:&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Attribute(32 bit unsigned integer): `parent{0}.value&apos; has value `0&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Attribute(32 bit unsigned integer): `parent{1}.value&apos; has value `1&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Attribute(32 bit unsigned integer): `parent{2}.value&apos; has value `2&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Attribute(encoded: utf-8)         &#9;&#9;: `parent{3}.value&apos; has value `existing string&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(64 bit real)            &#9;&#9;&#9;: `parent{10}.value&apos; has value `12.345&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(encoded: utf-8)         &#9;&#9;: `parent{11}.value&apos; has value `Zürich&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(encoded: utf-8)         &#9;&#9;: `parent{12}.value&apos; has value `new string&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(encoded: utf-8)         &#9;&#9;: `parent{13}.value&apos; has value `&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(32 bit integer)         &#9;&#9;: `parent{14}.value&apos; has value `0&apos;&#9;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(string)                 &#9;&#9;&#9;&#9;: `parent{15}.value&apos; is &amp;lt;null&amp;gt;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(encoded: utf-8)         &#9;&#9;: `parent{16}.value&apos; has value `Zürich 2&apos;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="3839.02 -230.477"
+#!   TOP_LEFT="3839.02 -230.477"
+#!   BOTTOM_RIGHT="5315.5 -860.483"
+#!   BOUNDING_RECT="3839.02 -230.477 1476.48 630.006"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.196078"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="17"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="55"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;helvetica neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600; color:#000000;&quot;&gt;Output should be:&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Attribute(32 bit unsigned integer): `parent{0}.value&apos; has value `0&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Attribute(32 bit unsigned integer): `parent{1}.value&apos; has value `1&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Attribute(32 bit unsigned integer): `parent{2}.value&apos; has value `2&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Attribute(encoded: utf-8)         &#9;&#9;: `parent{3}.value&apos; has value `existing string&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(64 bit real)            &#9;&#9;&#9;: `parent{4}.value&apos; has value `12.345&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(encoded: utf-8)         &#9;&#9;: `parent{5}.value&apos; has value `Zürich&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(encoded: utf-8)         &#9;&#9;: `parent{6}.value&apos; has value `new string&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(encoded: utf-8)         &#9;&#9;: `parent{7}.value&apos; has value `&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(32 bit integer)         &#9;&#9;: `parent{8}.value&apos; has value `0&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(string)                 &#9;&#9;&#9;&#9;: `parent{9}.value&apos; is &amp;lt;null&amp;gt;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(encoded: utf-8)         &#9;&#9;: `parent{10}.value&apos; has value `Zürich 2&apos;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="3839.02 436.906"
+#!   TOP_LEFT="3839.02 436.906"
+#!   BOTTOM_RIGHT="5319.88 -193.1"
+#!   BOUNDING_RECT="3839.02 436.906 1480.86 630.006"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.196078"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="14"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="57"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;helvetica neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;append to &lt;span style=&quot; font-weight:600;&quot;&gt;unicode_test&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;(SHOULD FAIL!)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="1163.07 393.271"
+#!   TOP_LEFT="1163.07 393.271"
+#!   BOTTOM_RIGHT="1162.07 394.271"
+#!   BOUNDING_RECT="1163.07 393.271 -1 -1"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="8"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="56"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="78"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;helvetica neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;Python 3.4+&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="4330.34 591.098"
+#!   TOP_LEFT="4330.34 591.098"
+#!   BOTTOM_RIGHT="4676.24 477.097"
+#!   BOUNDING_RECT="4330.34 591.098 345.902 114.001"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,0.8,0.4,1"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="0"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="79"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;helvetica neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;Python 2.7&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="5882.17 591.098"
+#!   TOP_LEFT="5882.17 591.098"
+#!   BOTTOM_RIGHT="6199.96 477.097"
+#!   BOUNDING_RECT="5882.17 591.098 317.796 114.001"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,0.8,0.4,1"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="0"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="77"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;helvetica neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600; color:#000000;&quot;&gt;Output should be:&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Attribute(32 bit unsigned integer): `parent{0}.value&apos; has value `0&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Attribute(32 bit unsigned integer): `parent{1}.value&apos; has value `1&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Attribute(32 bit unsigned integer): `parent{2}.value&apos; has value `2&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Attribute(encoded: utf-8)         &#9;&#9;: `parent{3}.value&apos; has value `existing string&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(64 bit real)            &#9;&#9;&#9;: `parent{4}.value&apos; has value `12.345&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(encoded: utf-8)         &#9;&#9;: `parent{5}.value&apos; has value `Zürich&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(&lt;/span&gt;&lt;span style=&quot; font-weight:600; font-style:italic; color:#000000;&quot;&gt;string&lt;/span&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;)       &#9;&#9;&#9;&#9;&#9;  &#9;&#9;: `parent{6}.value&apos; has value `new string&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(&lt;/span&gt;&lt;span style=&quot; font-weight:600; font-style:italic; color:#000000;&quot;&gt;string&lt;/span&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;)         &#9;&#9;&#9;&#9;&#9;&#9;: `parent{7}.value&apos; has value `&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(32 bit integer)         &#9;&#9;: `parent{8}.value&apos; has value `0&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(string)                 &#9;&#9;&#9;&#9;: `parent{9}.value&apos; is &amp;lt;null&amp;gt;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(encoded: utf-8)         &#9;&#9;: `parent{10}.value&apos; has value `Zürich 2&apos;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="5347.06 436.906"
+#!   TOP_LEFT="5347.06 436.906"
+#!   BOTTOM_RIGHT="6827.92 -193.1"
+#!   BOUNDING_RECT="5347.06 436.906 1480.86 630.006"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="0"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="80"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;helvetica neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600; color:#000000;&quot;&gt;Output should be:&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Attribute(32 bit unsigned integer): `parent{0}.value&apos; has value `0&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Attribute(32 bit unsigned integer): `parent{1}.value&apos; has value `1&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Attribute(32 bit unsigned integer): `parent{2}.value&apos; has value `2&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Attribute(encoded: utf-8)         &#9;&#9;: `parent{3}.value&apos; has value `existing string&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(64 bit real)            &#9;&#9;&#9;: `parent{10}.value&apos; has value `12.345&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(encoded: utf-8)         &#9;&#9;: `parent{11}.value&apos; has value `Zürich&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(&lt;/span&gt;&lt;span style=&quot; font-weight:600; font-style:italic; color:#000000;&quot;&gt;string&lt;/span&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;)         &#9;&#9;&#9;&#9;&#9;&#9;: `parent{12}.value&apos; has value `new string&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(&lt;/span&gt;&lt;span style=&quot; font-weight:600; font-style:italic; color:#000000;&quot;&gt;string&lt;/span&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;)         &#9;&#9;&#9;&#9;&#9;&#9;: `parent{13}.value&apos; has value `&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(32 bit integer)         &#9;&#9;: `parent{14}.value&apos; has value `0&apos;&#9;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(string)                 &#9;&#9;&#9;&#9;: `parent{15}.value&apos; is &amp;lt;null&amp;gt;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(encoded: utf-8)         &#9;&#9;: `parent{16}.value&apos; has value `Zürich 2&apos;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="5347.06 -230.477"
+#!   TOP_LEFT="5347.06 -230.477"
+#!   BOTTOM_RIGHT="6823.54 -860.483"
+#!   BOUNDING_RECT="5347.06 -230.477 1476.48 630.006"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="0"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="81"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;helvetica neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Output should be:&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(encoded: utf-8)         : `parent{0}&apos; has value `root element&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(64 bit real)            &#9;&#9;: `parent{1}&apos; has value `12.345&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(encoded: utf-8)         : `parent{2}&apos; has value `Zürich&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(&lt;/span&gt;&lt;span style=&quot; font-weight:600; font-style:italic; color:#000000;&quot;&gt;string&lt;/span&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;)                 &#9;&#9;: `parent{3}&apos; has value `new string&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(&lt;/span&gt;&lt;span style=&quot; font-weight:600; font-style:italic; color:#000000;&quot;&gt;string&lt;/span&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;)                 &#9;&#9;: `parent{4}&apos; has value `&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(&lt;/span&gt;&lt;span style=&quot; font-weight:600; font-style:italic; color:#000000;&quot;&gt;string&lt;/span&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;)                 &#9;&#9;: `parent{5}&apos; has value `root element&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(string)                 &#9;&#9;&#9;: `parent{6}&apos; is &amp;lt;null&amp;gt;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(encoded: utf-8)         : `parent{7}&apos; has value `Zürich 2&apos;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="5347.06 -897.433"
+#!   TOP_LEFT="5347.06 -897.433"
+#!   BOTTOM_RIGHT="6827.92 -1383.44"
+#!   BOUNDING_RECT="5347.06 -897.433 1480.86 486.005"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="0"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="82"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;helvetica neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600; color:#000000;&quot;&gt;Output should be:&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Attribute(32 bit unsigned integer): `_parent{0}.child{0}.value&apos; has value `0&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Attribute(32 bit unsigned integer): `_parent{0}.child{1}.value&apos; has value `1&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Attribute(32 bit unsigned integer): `_parent{0}.child{2}.value&apos; has value `2&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Attribute(32 bit unsigned integer): `_parent{1}.child{0}.value&apos; has value `0&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Attribute(32 bit unsigned integer): `_parent{1}.child{1}.value&apos; has value `1&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Attribute(32 bit unsigned integer): `_parent{1}.child{2}.value&apos; has value `2&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(64 bit real)            &#9;&#9;&#9;: `_parent{1}.child{3}.value&apos; has value `12.345&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(&lt;/span&gt;&lt;span style=&quot; font-weight:600; font-style:italic; color:#000000;&quot;&gt;string&lt;/span&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;)                 &#9;&#9;&#9;: `_parent{1}.child{4}.value&apos; has value `new string&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(string)                 &#9;&#9;&#9;&#9;: `_parent{1}.child{5}.value&apos; is &amp;lt;null&amp;gt;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#000000;&quot;&gt;Attribute(encoded: utf-8)         &#9;&#9;: `_parent{1}.child{6}.value&apos; has value `Zürich&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Attribute(32 bit unsigned integer): `_parent{2}.child{0}.value&apos; has value `0&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Attribute(32 bit unsigned integer): `_parent{2}.child{1}.value&apos; has value `1&apos;&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Attribute(32 bit unsigned integer): `_parent{2}.child{2}.value&apos; has value `2&apos;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="5349.59 -1415.73"
+#!   TOP_LEFT="5349.59 -1415.73"
+#!   BOTTOM_RIGHT="5348.59 -1414.73"
+#!   BOUNDING_RECT="5349.59 -1415.73 -1 -1"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="0"
+#! />
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! <TRANSFORMER
+#!   IDENTIFIER="2"
+#!   TYPE="Creator"
+#!   VERSION="5"
+#!   POSITION="198.023 -350.001"
+#!   BOUNDING_RECT="198.023 -350.001 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17291"
+#! >
+#!     <OUTPUT_FEAT NAME="CREATED"/>
+#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator"/>
+#!     <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="3"/>
+#!     <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
+#!     <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;space&gt;dimension=&lt;quote&gt;2&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
+#!     <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="value"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="3"
+#!   TYPE="ListBuilder"
+#!   VERSION="1"
+#!   POSITION="694.652 -350.001"
+#!   BOUNDING_RECT="694.652 -350.001 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17291"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <XFORM_ATTR ATTR_NAME="parent{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="unicode_test" IS_USER_CREATED="true" FEAT_INDEX="0" ATTR_IS_ENABLED="true" ATTR_VALUE="Z&lt;u00fc&gt;rich"/>
+#!     <XFORM_ATTR ATTR_NAME="parent{3}.value" IS_USER_CREATED="true" FEAT_INDEX="0" ATTR_IS_ENABLED="true" ATTR_VALUE="existing&lt;space&gt;string"/>
+#!     <XFORM_ATTR ATTR_NAME="parent{0}" IS_USER_CREATED="true" FEAT_INDEX="0" ATTR_IS_ENABLED="true" ATTR_VALUE="root&lt;space&gt;element"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListBuilder"/>
+#!     <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
+#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="parent"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE_MODE" PARM_VALUE="Selected Attributes"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE" PARM_VALUE="value"/>
+#!     <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="14"
+#!   TYPE="Logger"
+#!   VERSION="3"
+#!   POSITION="1704.73 -350.001"
+#!   BOUNDING_RECT="1704.73 -350.001 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17291"
+#! >
+#!     <OUTPUT_FEAT NAME="LOGGED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="parent{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="unicode_test" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="parent{3}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="parent{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Output"/>
+#!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Feature is:"/>
+#!     <XFORM_PARM PARM_NAME="MAXFEATS" PARM_VALUE="20"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MAXCOORDS" PARM_VALUE="20"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="13"
+#!   TYPE="ListAppender"
+#!   VERSION="1"
+#!   POSITION="1193.51 -350.001"
+#!   BOUNDING_RECT="1193.51 -350.001 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17291"
+#! >
+#!     <OUTPUT_FEAT NAME="Output"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="parent{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="unicode_test" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="parent{3}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="parent{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;Rejected&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="parent{}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="unicode_test" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="parent{3}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="parent{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_listappender_error" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListAppender"/>
+#!     <XFORM_PARM PARM_NAME="APPEND_VALUES_WWJD" PARM_VALUE="return&lt;space&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;APPEND_VALUES&lt;apos&gt;&lt;closebracket&gt;"/>
+#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="APPEND_LIST" PARM_VALUE="parent&lt;opencurly&gt;0&lt;closecurly&gt;.value"/>
+#!     <XFORM_PARM PARM_NAME="APPEND_VALUES" PARM_VALUE="&lt;at&gt;Evaluate&lt;openparen&gt;12.345&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;unicode_test&lt;closeparen&gt; new&lt;space&gt;string  &lt;at&gt;Value&lt;openparen&gt;parent&lt;opencurly&gt;0&lt;closecurly&gt;.value&lt;closeparen&gt; FME_NULL_VALUE Z&lt;u00fc&gt;rich&lt;space&gt;2"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="32"
+#!   TYPE="Logger"
+#!   VERSION="3"
+#!   POSITION="1704.73 -536.545"
+#!   BOUNDING_RECT="1704.73 -536.545 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17291"
+#! >
+#!     <OUTPUT_FEAT NAME="LOGGED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="parent{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="unicode_test" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="parent{3}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="parent{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_listappender_error" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Rejected"/>
+#!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Feature is:"/>
+#!     <XFORM_PARM PARM_NAME="MAXFEATS" PARM_VALUE="20"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MAXCOORDS" PARM_VALUE="20"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="12"
+#!   TYPE="ListAppender"
+#!   VERSION="1"
+#!   POSITION="1193.51 -861.4"
+#!   BOUNDING_RECT="1193.51 -861.4 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17291"
+#! >
+#!     <OUTPUT_FEAT NAME="Output"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="parent{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="unicode_test" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="parent{3}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="parent{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;Rejected&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="parent{}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="unicode_test" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="parent{3}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="parent{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_listappender_error" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListAppender_2"/>
+#!     <XFORM_PARM PARM_NAME="APPEND_VALUES_WWJD" PARM_VALUE="return&lt;space&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;APPEND_VALUES&lt;apos&gt;&lt;closebracket&gt;"/>
+#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="APPEND_LIST" PARM_VALUE="parent&lt;opencurly&gt;10&lt;closecurly&gt;.value"/>
+#!     <XFORM_PARM PARM_NAME="APPEND_VALUES" PARM_VALUE="&lt;at&gt;Evaluate&lt;openparen&gt;12.345&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;unicode_test&lt;closeparen&gt; new&lt;space&gt;string  &lt;at&gt;Value&lt;openparen&gt;parent&lt;opencurly&gt;0&lt;closecurly&gt;.value&lt;closeparen&gt; FME_NULL_VALUE Z&lt;u00fc&gt;rich&lt;space&gt;2"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="17"
+#!   TYPE="Logger"
+#!   VERSION="3"
+#!   POSITION="1713.47 -859.543"
+#!   BOUNDING_RECT="1713.47 -859.543 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17291"
+#! >
+#!     <OUTPUT_FEAT NAME="LOGGED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="parent{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="unicode_test" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="parent{3}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="parent{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Output_2"/>
+#!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Feature is:"/>
+#!     <XFORM_PARM PARM_NAME="MAXFEATS" PARM_VALUE="20"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MAXCOORDS" PARM_VALUE="20"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="18"
+#!   TYPE="Logger"
+#!   VERSION="3"
+#!   POSITION="1713.47 -1046.09"
+#!   BOUNDING_RECT="1713.47 -1046.09 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17291"
+#! >
+#!     <OUTPUT_FEAT NAME="LOGGED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="parent{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="unicode_test" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="parent{3}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="parent{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_listappender_error" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Rejected_2"/>
+#!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Feature is:"/>
+#!     <XFORM_PARM PARM_NAME="MAXFEATS" PARM_VALUE="20"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MAXCOORDS" PARM_VALUE="20"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="23"
+#!   TYPE="ListAppender"
+#!   VERSION="1"
+#!   POSITION="1193.51 -1347.2"
+#!   BOUNDING_RECT="1193.51 -1347.2 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17291"
+#! >
+#!     <OUTPUT_FEAT NAME="Output"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="parent{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="unicode_test" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="parent{3}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="parent{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;Rejected&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="parent{}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="unicode_test" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="parent{3}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="parent{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_listappender_error" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListAppender_3"/>
+#!     <XFORM_PARM PARM_NAME="APPEND_VALUES_WWJD" PARM_VALUE="return&lt;space&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;APPEND_VALUES&lt;apos&gt;&lt;closebracket&gt;"/>
+#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="APPEND_LIST" PARM_VALUE="parent&lt;opencurly&gt;0&lt;closecurly&gt;"/>
+#!     <XFORM_PARM PARM_NAME="APPEND_VALUES" PARM_VALUE="&lt;at&gt;Evaluate&lt;openparen&gt;12.345&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;unicode_test&lt;closeparen&gt; new&lt;space&gt;string  &lt;at&gt;Value&lt;openparen&gt;parent&lt;opencurly&gt;0&lt;closecurly&gt;&lt;closeparen&gt; FME_NULL_VALUE Z&lt;u00fc&gt;rich&lt;space&gt;2"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="24"
+#!   TYPE="Logger"
+#!   VERSION="3"
+#!   POSITION="1704.72 -1347.2"
+#!   BOUNDING_RECT="1704.72 -1347.2 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17291"
+#! >
+#!     <OUTPUT_FEAT NAME="LOGGED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="parent{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="unicode_test" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="parent{3}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="parent{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Output_3"/>
+#!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Feature is:"/>
+#!     <XFORM_PARM PARM_NAME="MAXFEATS" PARM_VALUE="20"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MAXCOORDS" PARM_VALUE="20"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="25"
+#!   TYPE="Logger"
+#!   VERSION="3"
+#!   POSITION="1704.72 -1533.74"
+#!   BOUNDING_RECT="1704.72 -1533.74 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17291"
+#! >
+#!     <OUTPUT_FEAT NAME="LOGGED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="parent{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="unicode_test" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="parent{3}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="parent{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_listappender_error" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Rejected_3"/>
+#!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Feature is:"/>
+#!     <XFORM_PARM PARM_NAME="MAXFEATS" PARM_VALUE="20"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MAXCOORDS" PARM_VALUE="20"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="31"
+#!   TYPE="Cloner"
+#!   VERSION="0"
+#!   POSITION="1197.96 -1729.93"
+#!   BOUNDING_RECT="1197.96 -1729.93 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17291"
+#! >
+#!     <OUTPUT_FEAT NAME="COPY"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="child{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="child{}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Cloner"/>
+#!     <XFORM_PARM PARM_NAME="COPIES" PARM_VALUE="3"/>
+#!     <XFORM_PARM PARM_NAME="COPYATT" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="33"
+#!   TYPE="ListBuilder"
+#!   VERSION="1"
+#!   POSITION="694.652 -1729.93"
+#!   BOUNDING_RECT="694.652 -1729.93 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17291"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="child{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListBuilder_2"/>
+#!     <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
+#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="child"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE_MODE" PARM_VALUE="Selected Attributes"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE" PARM_VALUE="value"/>
+#!     <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="40"
+#!   TYPE="ListBuilder"
+#!   VERSION="1"
+#!   POSITION="1701.58 -1729.83"
+#!   BOUNDING_RECT="1701.58 -1729.83 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17291"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <XFORM_ATTR ATTR_NAME="_parent{}.child{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListBuilder_3"/>
+#!     <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
+#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="_parent"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE_MODE" PARM_VALUE="Selected Attributes"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE" PARM_VALUE="child&lt;opencurly&gt;&lt;closecurly&gt;.value"/>
+#!     <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="42"
+#!   TYPE="ListAppender"
+#!   VERSION="1"
+#!   POSITION="2200.44 -1729.83"
+#!   BOUNDING_RECT="2200.44 -1729.83 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17291"
+#! >
+#!     <OUTPUT_FEAT NAME="Output"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_parent{}.child{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;Rejected&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="_parent{}.child{}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_listappender_error" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListAppender_4"/>
+#!     <XFORM_PARM PARM_NAME="APPEND_VALUES_WWJD" PARM_VALUE="return&lt;space&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;APPEND_VALUES&lt;apos&gt;&lt;closebracket&gt;"/>
+#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="APPEND_LIST" PARM_VALUE="_parent&lt;opencurly&gt;1&lt;closecurly&gt;.child&lt;opencurly&gt;0&lt;closecurly&gt;.value"/>
+#!     <XFORM_PARM PARM_NAME="APPEND_VALUES" PARM_VALUE="&lt;at&gt;Evaluate&lt;openparen&gt;12.345&lt;closeparen&gt; new&lt;space&gt;string FME_NULL_VALUE Z&lt;u00fc&gt;rich"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="43"
+#!   TYPE="Logger"
+#!   VERSION="3"
+#!   POSITION="2711.65 -1729.83"
+#!   BOUNDING_RECT="2711.65 -1729.83 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17291"
+#! >
+#!     <OUTPUT_FEAT NAME="LOGGED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_parent{}.child{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Output_4"/>
+#!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Feature is:"/>
+#!     <XFORM_PARM PARM_NAME="MAXFEATS" PARM_VALUE="20"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MAXCOORDS" PARM_VALUE="20"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="44"
+#!   TYPE="Logger"
+#!   VERSION="3"
+#!   POSITION="2711.65 -1916.37"
+#!   BOUNDING_RECT="2711.65 -1916.37 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17291"
+#! >
+#!     <OUTPUT_FEAT NAME="LOGGED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_parent{}.child{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_listappender_error" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Rejected_4"/>
+#!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Feature is:"/>
+#!     <XFORM_PARM PARM_NAME="MAXFEATS" PARM_VALUE="20"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MAXCOORDS" PARM_VALUE="20"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="56"
+#!   TYPE="ListAppender"
+#!   VERSION="1"
+#!   POSITION="1202.46 160.751"
+#!   BOUNDING_RECT="1202.46 160.751 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17291"
+#! >
+#!     <OUTPUT_FEAT NAME="Output"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="parent{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="unicode_test" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="parent{3}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="parent{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;Rejected&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="parent{}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="unicode_test" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="parent{3}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="parent{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_listappender_error" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListAppender_5"/>
+#!     <XFORM_PARM PARM_NAME="APPEND_VALUES_WWJD" PARM_VALUE="return&lt;space&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;APPEND_VALUES&lt;apos&gt;&lt;closebracket&gt;"/>
+#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="APPEND_LIST" PARM_VALUE="unicode_test"/>
+#!     <XFORM_PARM PARM_NAME="APPEND_VALUES" PARM_VALUE="&lt;at&gt;Evaluate&lt;openparen&gt;12.345&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;unicode_test&lt;closeparen&gt; new&lt;space&gt;string  &lt;at&gt;Value&lt;openparen&gt;parent&lt;opencurly&gt;0&lt;closecurly&gt;.value&lt;closeparen&gt; FME_NULL_VALUE Z&lt;u00fc&gt;rich&lt;space&gt;2"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="59"
+#!   TYPE="Logger"
+#!   VERSION="3"
+#!   POSITION="1713.47 160.751"
+#!   BOUNDING_RECT="1713.47 160.751 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17291"
+#! >
+#!     <OUTPUT_FEAT NAME="LOGGED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="parent{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="unicode_test" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="parent{3}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="parent{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Output_5"/>
+#!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Feature is:"/>
+#!     <XFORM_PARM PARM_NAME="MAXFEATS" PARM_VALUE="20"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MAXCOORDS" PARM_VALUE="20"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="61"
+#!   TYPE="Logger"
+#!   VERSION="3"
+#!   POSITION="1713.47 -24.2469"
+#!   BOUNDING_RECT="1713.47 -24.2469 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17291"
+#! >
+#!     <OUTPUT_FEAT NAME="LOGGED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="parent{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="unicode_test" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="parent{3}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="parent{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_listappender_error" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Rejected_5"/>
+#!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Feature is:"/>
+#!     <XFORM_PARM PARM_NAME="MAXFEATS" PARM_VALUE="20"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MAXCOORDS" PARM_VALUE="20"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="63"
+#!   TYPE="Terminator"
+#!   VERSION="2"
+#!   POSITION="2227.01 -536.545"
+#!   BOUNDING_RECT="2227.01 -536.545 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17291"
+#! >
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Terminator"/>
+#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Action&lt;space&gt;should&lt;space&gt;not&lt;space&gt;fail"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="65"
+#!   TYPE="Terminator"
+#!   VERSION="2"
+#!   POSITION="2227.01 160.751"
+#!   BOUNDING_RECT="2227.01 160.751 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17291"
+#! >
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Terminator_5"/>
+#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Selecting&lt;space&gt;a&lt;space&gt;non-list&lt;space&gt;attribute&lt;space&gt;should&lt;space&gt;fail"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="67"
+#!   TYPE="Terminator"
+#!   VERSION="2"
+#!   POSITION="2227.01 -1041.4"
+#!   BOUNDING_RECT="2227.01 -1041.4 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17291"
+#! >
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Terminator_2"/>
+#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Action&lt;space&gt;should&lt;space&gt;not&lt;space&gt;fail"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="69"
+#!   TYPE="Terminator"
+#!   VERSION="2"
+#!   POSITION="2227.01 -1533.74"
+#!   BOUNDING_RECT="2227.01 -1533.74 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17291"
+#! >
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Terminator_3"/>
+#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Action&lt;space&gt;should&lt;space&gt;not&lt;space&gt;fail"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="71"
+#!   TYPE="Terminator"
+#!   VERSION="2"
+#!   POSITION="3228.09 -1909.83"
+#!   BOUNDING_RECT="3228.09 -1909.83 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17291"
+#! >
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Terminator_4"/>
+#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Action&lt;space&gt;should&lt;space&gt;not&lt;space&gt;fail"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="73"
+#!   TYPE="Tester"
+#!   VERSION="2"
+#!   POSITION="2227.01 -350.001"
+#!   BOUNDING_RECT="2227.01 -350.001 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17291"
+#! >
+#!     <OUTPUT_FEAT NAME="PASSED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="parent{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="unicode_test" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="parent{3}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="parent{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="FAILED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="parent{}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="unicode_test" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="parent{3}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="parent{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester"/>
+#!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="AND"/>
+#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="NUM_TEST &lt;at&gt;Value&lt;openparen&gt;parent&lt;opencurly&gt;4&lt;closecurly&gt;.value&lt;closeparen&gt; TYPE DOUBLE&#10;TEST &lt;at&gt;Value&lt;openparen&gt;parent&lt;opencurly&gt;5&lt;closecurly&gt;.value&lt;closeparen&gt; = Z&lt;u00fc&gt;rich&#10;STRING_TEST &lt;at&gt;Value&lt;openparen&gt;parent&lt;opencurly&gt;7&lt;closecurly&gt;.value&lt;closeparen&gt; = &quot;&quot;&#10;NUM_TEST &lt;at&gt;Value&lt;openparen&gt;parent&lt;opencurly&gt;8&lt;closecurly&gt;.value&lt;closeparen&gt; TYPE INT&#10;TEST parent&lt;opencurly&gt;9&lt;closecurly&gt;.value ATTRIBUTE_VALUE_NULL &quot;&quot;&#10;TEST &lt;at&gt;Value&lt;openparen&gt;parent&lt;opencurly&gt;10&lt;closecurly&gt;.value&lt;closeparen&gt; ATTRIBUTE_HAS_VALUE &quot;&quot;"/>
+#!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
+#!     <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
+#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="75"
+#!   TYPE="Terminator"
+#!   VERSION="2"
+#!   POSITION="2737.03 -350.001"
+#!   BOUNDING_RECT="2737.03 -350.001 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17291"
+#! >
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Terminator_6"/>
+#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Output&lt;space&gt;value&lt;space&gt;checks&lt;space&gt;failed"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! </TRANSFORMERS>
+#! <FEAT_LINKS>
+#! <FEAT_LINK
+#!   IDENTIFIER="4"
+#!   SOURCE_NODE="2"
+#!   TARGET_NODE="3"
+#!   SOURCE_PORT_DESC="fo 0 CREATED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="34"
+#!   SOURCE_NODE="2"
+#!   TARGET_NODE="33"
+#!   SOURCE_PORT_DESC="fo 0 CREATED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="1"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="15"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="13"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 Input"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="16"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="12"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 Input"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="1"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="30"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="23"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 Input"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="2"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="58"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="56"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 Input"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="3"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="51"
+#!   SOURCE_NODE="12"
+#!   TARGET_NODE="17"
+#!   SOURCE_PORT_DESC="fo 0 Output"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="50"
+#!   SOURCE_NODE="13"
+#!   TARGET_NODE="14"
+#!   SOURCE_PORT_DESC="fo 0 Output"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="74"
+#!   SOURCE_NODE="14"
+#!   TARGET_NODE="73"
+#!   SOURCE_PORT_DESC="fo 0 LOGGED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="68"
+#!   SOURCE_NODE="18"
+#!   TARGET_NODE="67"
+#!   SOURCE_PORT_DESC="fo 0 LOGGED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="38"
+#!   SOURCE_NODE="23"
+#!   TARGET_NODE="24"
+#!   SOURCE_PORT_DESC="fo 0 Output"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="70"
+#!   SOURCE_NODE="25"
+#!   TARGET_NODE="69"
+#!   SOURCE_PORT_DESC="fo 0 LOGGED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="41"
+#!   SOURCE_NODE="31"
+#!   TARGET_NODE="40"
+#!   SOURCE_PORT_DESC="fo 0 COPY"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="64"
+#!   SOURCE_NODE="32"
+#!   TARGET_NODE="63"
+#!   SOURCE_PORT_DESC="fo 0 LOGGED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="35"
+#!   SOURCE_NODE="33"
+#!   TARGET_NODE="31"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="49"
+#!   SOURCE_NODE="40"
+#!   TARGET_NODE="42"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 Input"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="37"
+#!   SOURCE_NODE="42"
+#!   TARGET_NODE="43"
+#!   SOURCE_PORT_DESC="fo 0 Output"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="72"
+#!   SOURCE_NODE="44"
+#!   TARGET_NODE="71"
+#!   SOURCE_PORT_DESC="fo 0 LOGGED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="60"
+#!   SOURCE_NODE="56"
+#!   TARGET_NODE="59"
+#!   SOURCE_PORT_DESC="fo 0 Output"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="66"
+#!   SOURCE_NODE="59"
+#!   TARGET_NODE="65"
+#!   SOURCE_PORT_DESC="fo 0 LOGGED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="22"
+#!   SOURCE_NODE="12"
+#!   TARGET_NODE="18"
+#!   SOURCE_PORT_DESC="fo 1 &lt;lt&gt;Rejected&lt;gt&gt;"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="36"
+#!   SOURCE_NODE="13"
+#!   TARGET_NODE="32"
+#!   SOURCE_PORT_DESC="fo 1 &lt;lt&gt;Rejected&lt;gt&gt;"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="29"
+#!   SOURCE_NODE="23"
+#!   TARGET_NODE="25"
+#!   SOURCE_PORT_DESC="fo 1 &lt;lt&gt;Rejected&lt;gt&gt;"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="48"
+#!   SOURCE_NODE="42"
+#!   TARGET_NODE="44"
+#!   SOURCE_PORT_DESC="fo 1 &lt;lt&gt;Rejected&lt;gt&gt;"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="62"
+#!   SOURCE_NODE="56"
+#!   TARGET_NODE="61"
+#!   SOURCE_PORT_DESC="fo 1 &lt;lt&gt;Rejected&lt;gt&gt;"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="76"
+#!   SOURCE_NODE="73"
+#!   TARGET_NODE="75"
+#!   SOURCE_PORT_DESC="fo 1 FAILED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! </ATTR_LINKS>
+#! <SUBDOCUMENTS>
+#! </SUBDOCUMENTS>
+#! <LOOKUP_TABLES>
+#! </LOOKUP_TABLES>
+#! </WORKSPACE>
+FME_PYTHON_VERSION 34
+#! START_HEADER
+#! START_WB_HEADER
+READER_TYPE NULL
+READER_KEYWORD NULL_SOURCE
+NULL_SOURCE_DATASET null
+
+WRITER_TYPE NULL
+WRITER_KEYWORD NULL_DEST
+NULL_DEST_DATASET null
+#! END_WB_HEADER
+
+#! START_WB_HEADER
+#! END_WB_HEADER
+
+#! END_HEADER
+
+LOG_FILENAME "$(FME_MF_DIR)ListAppender.log"
+LOG_APPEND NO
+LOG_MAX_FEATURES 200
+LOG_MAX_RECORDED_FEATURES 200
+FME_REPROJECTION_ENGINE FME
+FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
+FME_GEOMETRY_HANDLING Enhanced
+FME_STROKE_MAX_DEVIATION 0
+LOG_FILTER_MASK -1
+# -------------------------------------------------------------------------
+
+MULTI_READER_CONTINUE_ON_READER_FAILURE No
+
+# -------------------------------------------------------------------------
+
+MACRO WORKSPACE_NAME ListAppender
+MACRO FME_VIEWER_APP fmedatainspector
+DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+
+Tcl2 proc Creator_CoordSysRemover {} {   global FME_CoordSys;   set FME_CoordSys {}; }
+MACRO Creator_XML     NOT_ACTIVATED
+MACRO Creator_CLASSIC NOT_ACTIVATED
+MACRO Creator_2D3D    2D_GEOMETRY
+MACRO Creator_COORDS  <Unused>
+INCLUDE [ if { {Geometry Object} == {Geometry Object} } {            puts {MACRO Creator_XML *} } ]
+INCLUDE [ if { {Geometry Object} == {2D Coordinate List} } {            puts {MACRO Creator_2D3D 2D_GEOMETRY};            puts {MACRO Creator_CLASSIC *} } ]
+INCLUDE [ if { {Geometry Object} == {3D Coordinate List} } {            puts {MACRO Creator_2D3D 3D_GEOMETRY};            puts {MACRO Creator_CLASSIC *} } ]
+INCLUDE [ if { {Geometry Object} == {2D Min/Max Box} } {            set comment {                We need to turn the COORDS which are                    minX minY maxX maxY                into a full polygon list of coordinates            };            set splitCoords [split [string trim {<Unused>}]];            if { [llength $splitCoords] > 4} {               set trimmedCoords {};               foreach item $splitCoords { if { $item != {} } {lappend trimmedCoords $item} };               set splitCoords $trimmedCoords;            };            if { [llength $splitCoords] != 4 } {                error {Creator: Coordinate list is expected to be a space delimited list of four numbers as 'minx miny maxx maxy' - `<Unused>' is invalid};            };            set minX [lindex $splitCoords 0];            set minY [lindex $splitCoords 1];            set maxX [lindex $splitCoords 2];            set maxY [lindex $splitCoords 3];            puts "MACRO Creator_COORDS $minX $minY $minX $maxY $maxX $maxY $maxX $minY $minX $minY";            puts {MACRO Creator_2D3D 2D_GEOMETRY};            puts {MACRO Creator_CLASSIC *} } ]
+FACTORY_DEF $(Creator_XML) CreationFactory    FACTORY_NAME Creator_XML_Creator    CREATE_AT_END no    OUTPUT FEATURE_TYPE _____CREATED______        @Geometry(FROM_ENCODED_STRING,<lt>?xml<space>version=<quote>1.0<quote><space>encoding=<quote>US_ASCII<quote><space>standalone=<quote>no<quote><space>?<gt><lt>geometry<space>dimension=<quote>2<quote><gt><lt>null<solidus><gt><lt><solidus>geometry<gt>)
+FACTORY_DEF $(Creator_CLASSIC) CreationFactory    FACTORY_NAME Creator_CLASSIC_Creator    $(Creator_2D3D) $(Creator_COORDS)    CREATE_AT_END no    OUTPUT FEATURE_TYPE _____CREATED______
+FACTORY_DEF * TeeFactory    FACTORY_NAME Creator_Cloner    INPUT FEATURE_TYPE _____CREATED______    NUMBER_OF_COPIES 3    COPY_NUMBER_ATTRIBUTE "value"    OUTPUT FEATURE_TYPE Creator_CREATED        @Tcl2(Creator_CoordSysRemover)        @CoordSys()        fme_feature_type Creator
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Creator CREATED Splitter"   INPUT FEATURE_TYPE Creator_CREATED   OUTPUT FEATURE_TYPE Creator_CREATED_0_GJAgmIF9G6c=   OUTPUT FEATURE_TYPE Creator_CREATED_1_Exx7idfjvCA=
+FACTORY_DEF * BranchingFactory   FACTORY_NAME "Creator_CREATED_0_GJAgmIF9G6c= Brancher -1 4"   INPUT FEATURE_TYPE Creator_CREATED_0_GJAgmIF9G6c=   TARGET_FACTORY "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   OUTPUT PASSED FEATURE_TYPE *     @RemoveAttributes("Creator_CREATED_0_GJAgmIF9G6c= Brancher -1 4".BranchingFactory.Count)
+FACTORY_DEF * BranchingFactory   FACTORY_NAME "Creator_CREATED_1_Exx7idfjvCA= Brancher -1 34"   INPUT FEATURE_TYPE Creator_CREATED_1_Exx7idfjvCA=   TARGET_FACTORY "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   OUTPUT PASSED FEATURE_TYPE *     @RemoveAttributes("Creator_CREATED_1_Exx7idfjvCA= Brancher -1 34".BranchingFactory.Count)
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   INPUT FEATURE_TYPE *  OUTPUT FEATURE_TYPE *
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME ListBuilder_fme_type_remover    INPUT  FEATURE_TYPE Creator_CREATED_0_GJAgmIF9G6c=    OUTPUT FEATURE_TYPE ListBuilder_no_fme_type       @RemoveAttributes(fme_type,fme_geometry)
+FACTORY_DEF {*} ListFactory    FACTORY_NAME ListBuilder    INPUT FEATURE_TYPE ListBuilder_no_fme_type    LIST_NAME "parent{}"    LIST_ATTRS_TO_INCLUDE { value }    LIST_ATTRS_TO_INCLUDE_MODE SELECTED    OUTPUT LIST FEATURE_TYPE ListBuilder_OUTPUT             "@EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV,unicode_test,Z<u00fc>rich,parent<opencurly>3<closecurly>.value,existing<space>string,parent<opencurly>0<closecurly>,root<space>element, FEATURE_TYPE)"
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "ListBuilder OUTPUT Splitter"   INPUT FEATURE_TYPE ListBuilder_OUTPUT   OUTPUT FEATURE_TYPE ListBuilder_OUTPUT_0_JDZQCVAu4hQ=   OUTPUT FEATURE_TYPE ListBuilder_OUTPUT_1_3ZjSSa3+ink=   OUTPUT FEATURE_TYPE ListBuilder_OUTPUT_2_qgcQo1HP0AQ=   OUTPUT FEATURE_TYPE ListBuilder_OUTPUT_3_iJcsqj/BRQs=
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory   FACTORY_NAME "ListAppender_2 Input Input Collector"   INPUT FEATURE_TYPE ListBuilder_OUTPUT_1_3ZjSSa3+ink=   OUTPUT FEATURE_TYPE ListAppender_2_Input
+MACRO ListAppender_WORKSPACE_NAME ListAppender_2
+MACRO $(ListAppender_WORKSPACE_NAME)_XFORMER_NAME ListAppender_2
+MACRO $(ListAppender_WORKSPACE_NAME)_TRANSFORMER_GROUP 
+MACRO $(ListAppender_WORKSPACE_NAME)___COMPOUND_PARAMETERS 
+MACRO $(ListAppender_WORKSPACE_NAME)_APPEND_LIST parent<opencurly>10<closecurly>.value
+MACRO $(ListAppender_WORKSPACE_NAME)_APPEND_VALUES <at>Evaluate<openparen>12.345<closeparen> <at>Value<openparen>unicode_test<closeparen> new<space>string  <at>Value<openparen>parent<opencurly>0<closecurly>.value<closeparen> FME_NULL_VALUE Z<u00fc>rich<space>2
+INCLUDE PYTHON
+def ParamFunc():
+  return FME_MacroValues[FME_MacroValues['ListAppender_WORKSPACE_NAME'] + '_' + 'APPEND_VALUES']
+value = ParamFunc()
+macroName = FME_MacroValues['ListAppender_WORKSPACE_NAME'] + '_APPEND_VALUES_WWJD'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
+
+INCLUDE_CUSTOM_TRANSFORMER_VER ListAppender:1
+FACTORY_DEF * TeeFactory   FACTORY_NAME "ListAppender_2 Output Output Renamer/Nuker"   INPUT FEATURE_TYPE ListAppender_2_Output   OUTPUT FEATURE_TYPE ListAppender_2_Output
+FACTORY_DEF * TeeFactory   FACTORY_NAME "ListAppender_2 <Rejected> Output Renamer/Nuker"   INPUT FEATURE_TYPE ListAppender_2_<Rejected>   OUTPUT FEATURE_TYPE ListAppender_2_<Rejected>
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME Rejected_2_Logger    INPUT  FEATURE_TYPE ListAppender_2_<Rejected>    OUTPUT FEATURE_TYPE Rejected_2_LOGGED                  @Log("Rejected_2: Feature is:","20","20")                  @FeatureType(Rejected_2_LOGGED)
+
+# -------------------------------------------------------------------------
+
+# The default behaviour is to abort on any feature entering the transformer.
+# If Workbench has set the _WB_BYPASS_TERMINATION macro to a value of "Yes",
+# then the features will instead be passed through with a feature type of
+# __WB_BYPASS_TERMINATOR__, which Workbench will send to a visualizer or
+# somesuch.
+
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TestFactory    FACTORY_NAME Terminator_2    INPUT  FEATURE_TYPE Rejected_2_LOGGED    TEST "$(_WB_BYPASS_TERMINATION)" == Yes    OUTPUT PASSED FEATURE_TYPE __WB_BYPASS_TERMINATOR__       @SupplyAttributes(_wb_termination_feature_type,@FeatureType())       @SupplyAttributes(ENCODED,_wb_termination_message,"Action<space>should<space>not<space>fail")       @SupplyAttributes(_wb_termination_xformer,"Terminator_2")       @SupplyAttributes(_wb_termination_feature,Yes)    OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED,"Action<space>should<space>not<space>fail")
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME Output_2_Logger    INPUT  FEATURE_TYPE ListAppender_2_Output    OUTPUT FEATURE_TYPE Output_2_LOGGED                  @Log("Output_2: Feature is:","20","20")                  @FeatureType(Output_2_LOGGED)
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Output_2 LOGGED Output Nuker"   INPUT FEATURE_TYPE Output_2_LOGGED
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory   FACTORY_NAME "ListAppender_3 Input Input Collector"   INPUT FEATURE_TYPE ListBuilder_OUTPUT_2_qgcQo1HP0AQ=   OUTPUT FEATURE_TYPE ListAppender_3_Input
+MACRO ListAppender_WORKSPACE_NAME ListAppender_3
+MACRO $(ListAppender_WORKSPACE_NAME)_XFORMER_NAME ListAppender_3
+MACRO $(ListAppender_WORKSPACE_NAME)_TRANSFORMER_GROUP 
+MACRO $(ListAppender_WORKSPACE_NAME)___COMPOUND_PARAMETERS 
+MACRO $(ListAppender_WORKSPACE_NAME)_APPEND_LIST parent<opencurly>0<closecurly>
+MACRO $(ListAppender_WORKSPACE_NAME)_APPEND_VALUES <at>Evaluate<openparen>12.345<closeparen> <at>Value<openparen>unicode_test<closeparen> new<space>string  <at>Value<openparen>parent<opencurly>0<closecurly><closeparen> FME_NULL_VALUE Z<u00fc>rich<space>2
+INCLUDE PYTHON
+def ParamFunc():
+  return FME_MacroValues[FME_MacroValues['ListAppender_WORKSPACE_NAME'] + '_' + 'APPEND_VALUES']
+value = ParamFunc()
+macroName = FME_MacroValues['ListAppender_WORKSPACE_NAME'] + '_APPEND_VALUES_WWJD'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
+
+INCLUDE_CUSTOM_TRANSFORMER_VER ListAppender:1
+FACTORY_DEF * TeeFactory   FACTORY_NAME "ListAppender_3 Output Output Renamer/Nuker"   INPUT FEATURE_TYPE ListAppender_3_Output   OUTPUT FEATURE_TYPE ListAppender_3_Output
+FACTORY_DEF * TeeFactory   FACTORY_NAME "ListAppender_3 <Rejected> Output Renamer/Nuker"   INPUT FEATURE_TYPE ListAppender_3_<Rejected>   OUTPUT FEATURE_TYPE ListAppender_3_<Rejected>
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME Rejected_3_Logger    INPUT  FEATURE_TYPE ListAppender_3_<Rejected>    OUTPUT FEATURE_TYPE Rejected_3_LOGGED                  @Log("Rejected_3: Feature is:","20","20")                  @FeatureType(Rejected_3_LOGGED)
+
+# -------------------------------------------------------------------------
+
+# The default behaviour is to abort on any feature entering the transformer.
+# If Workbench has set the _WB_BYPASS_TERMINATION macro to a value of "Yes",
+# then the features will instead be passed through with a feature type of
+# __WB_BYPASS_TERMINATOR__, which Workbench will send to a visualizer or
+# somesuch.
+
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TestFactory    FACTORY_NAME Terminator_3    INPUT  FEATURE_TYPE Rejected_3_LOGGED    TEST "$(_WB_BYPASS_TERMINATION)" == Yes    OUTPUT PASSED FEATURE_TYPE __WB_BYPASS_TERMINATOR__       @SupplyAttributes(_wb_termination_feature_type,@FeatureType())       @SupplyAttributes(ENCODED,_wb_termination_message,"Action<space>should<space>not<space>fail")       @SupplyAttributes(_wb_termination_xformer,"Terminator_3")       @SupplyAttributes(_wb_termination_feature,Yes)    OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED,"Action<space>should<space>not<space>fail")
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME Output_3_Logger    INPUT  FEATURE_TYPE ListAppender_3_Output    OUTPUT FEATURE_TYPE Output_3_LOGGED                  @Log("Output_3: Feature is:","20","20")                  @FeatureType(Output_3_LOGGED)
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Output_3 LOGGED Output Nuker"   INPUT FEATURE_TYPE Output_3_LOGGED
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory   FACTORY_NAME "ListAppender Input Input Collector"   INPUT FEATURE_TYPE ListBuilder_OUTPUT_0_JDZQCVAu4hQ=   OUTPUT FEATURE_TYPE ListAppender_Input
+MACRO ListAppender_WORKSPACE_NAME ListAppender
+MACRO $(ListAppender_WORKSPACE_NAME)_XFORMER_NAME ListAppender
+MACRO $(ListAppender_WORKSPACE_NAME)_TRANSFORMER_GROUP 
+MACRO $(ListAppender_WORKSPACE_NAME)___COMPOUND_PARAMETERS 
+MACRO $(ListAppender_WORKSPACE_NAME)_APPEND_LIST parent<opencurly>0<closecurly>.value
+MACRO $(ListAppender_WORKSPACE_NAME)_APPEND_VALUES <at>Evaluate<openparen>12.345<closeparen> <at>Value<openparen>unicode_test<closeparen> new<space>string  <at>Value<openparen>parent<opencurly>0<closecurly>.value<closeparen> FME_NULL_VALUE Z<u00fc>rich<space>2
+INCLUDE PYTHON
+def ParamFunc():
+  return FME_MacroValues[FME_MacroValues['ListAppender_WORKSPACE_NAME'] + '_' + 'APPEND_VALUES']
+value = ParamFunc()
+macroName = FME_MacroValues['ListAppender_WORKSPACE_NAME'] + '_APPEND_VALUES_WWJD'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
+
+INCLUDE_CUSTOM_TRANSFORMER_VER ListAppender:1
+FACTORY_DEF * TeeFactory   FACTORY_NAME "ListAppender Output Output Renamer/Nuker"   INPUT FEATURE_TYPE ListAppender_Output   OUTPUT FEATURE_TYPE ListAppender_Output
+FACTORY_DEF * TeeFactory   FACTORY_NAME "ListAppender <Rejected> Output Renamer/Nuker"   INPUT FEATURE_TYPE ListAppender_<Rejected>   OUTPUT FEATURE_TYPE ListAppender_<Rejected>
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME Rejected_Logger    INPUT  FEATURE_TYPE ListAppender_<Rejected>    OUTPUT FEATURE_TYPE Rejected_LOGGED                  @Log("Rejected: Feature is:","20","20")                  @FeatureType(Rejected_LOGGED)
+
+# -------------------------------------------------------------------------
+
+# The default behaviour is to abort on any feature entering the transformer.
+# If Workbench has set the _WB_BYPASS_TERMINATION macro to a value of "Yes",
+# then the features will instead be passed through with a feature type of
+# __WB_BYPASS_TERMINATOR__, which Workbench will send to a visualizer or
+# somesuch.
+
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TestFactory    FACTORY_NAME Terminator    INPUT  FEATURE_TYPE Rejected_LOGGED    TEST "$(_WB_BYPASS_TERMINATION)" == Yes    OUTPUT PASSED FEATURE_TYPE __WB_BYPASS_TERMINATOR__       @SupplyAttributes(_wb_termination_feature_type,@FeatureType())       @SupplyAttributes(ENCODED,_wb_termination_message,"Action<space>should<space>not<space>fail")       @SupplyAttributes(_wb_termination_xformer,"Terminator")       @SupplyAttributes(_wb_termination_feature,Yes)    OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED,"Action<space>should<space>not<space>fail")
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME Output_Logger    INPUT  FEATURE_TYPE ListAppender_Output    OUTPUT FEATURE_TYPE Output_LOGGED                  @Log("Output: Feature is:","20","20")                  @FeatureType(Output_LOGGED)
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TestFactory    FACTORY_NAME Tester    INPUT  FEATURE_TYPE Output_LOGGED    NUM_TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>parent<opencurly>4<closecurly>.value<closeparen>,Tester) TYPE DOUBLE ENCODED TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>parent<opencurly>5<closecurly>.value<closeparen>,Tester) = Z<u00fc>rich ENCODED STRING_TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>parent<opencurly>7<closecurly>.value<closeparen>,Tester) = "" ENCODED NUM_TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>parent<opencurly>8<closecurly>.value<closeparen>,Tester) TYPE INT ENCODED TEST parent<opencurly>9<closecurly>.value ATTRIBUTE_VALUE_NULL "" ENCODED TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>parent<opencurly>10<closecurly>.value<closeparen>,Tester) ATTRIBUTE_HAS_VALUE "" ENCODED    BOOLEAN_OPERATOR AND    OUTPUT FAILED FEATURE_TYPE Tester_FAILED
+# -------------------------------------------------------------------------
+
+# The default behaviour is to abort on any feature entering the transformer.
+# If Workbench has set the _WB_BYPASS_TERMINATION macro to a value of "Yes",
+# then the features will instead be passed through with a feature type of
+# __WB_BYPASS_TERMINATOR__, which Workbench will send to a visualizer or
+# somesuch.
+
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TestFactory    FACTORY_NAME Terminator_6    INPUT  FEATURE_TYPE Tester_FAILED    TEST "$(_WB_BYPASS_TERMINATION)" == Yes    OUTPUT PASSED FEATURE_TYPE __WB_BYPASS_TERMINATOR__       @SupplyAttributes(_wb_termination_feature_type,@FeatureType())       @SupplyAttributes(ENCODED,_wb_termination_message,"Output<space>value<space>checks<space>failed")       @SupplyAttributes(_wb_termination_xformer,"Terminator_6")       @SupplyAttributes(_wb_termination_feature,Yes)    OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED,"Output<space>value<space>checks<space>failed")
+
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory   FACTORY_NAME "ListAppender_5 Input Input Collector"   INPUT FEATURE_TYPE ListBuilder_OUTPUT_3_iJcsqj/BRQs=   OUTPUT FEATURE_TYPE ListAppender_5_Input
+MACRO ListAppender_WORKSPACE_NAME ListAppender_5
+MACRO $(ListAppender_WORKSPACE_NAME)_XFORMER_NAME ListAppender_5
+MACRO $(ListAppender_WORKSPACE_NAME)_TRANSFORMER_GROUP 
+MACRO $(ListAppender_WORKSPACE_NAME)___COMPOUND_PARAMETERS 
+MACRO $(ListAppender_WORKSPACE_NAME)_APPEND_LIST unicode_test
+MACRO $(ListAppender_WORKSPACE_NAME)_APPEND_VALUES <at>Evaluate<openparen>12.345<closeparen> <at>Value<openparen>unicode_test<closeparen> new<space>string  <at>Value<openparen>parent<opencurly>0<closecurly>.value<closeparen> FME_NULL_VALUE Z<u00fc>rich<space>2
+INCLUDE PYTHON
+def ParamFunc():
+  return FME_MacroValues[FME_MacroValues['ListAppender_WORKSPACE_NAME'] + '_' + 'APPEND_VALUES']
+value = ParamFunc()
+macroName = FME_MacroValues['ListAppender_WORKSPACE_NAME'] + '_APPEND_VALUES_WWJD'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
+
+INCLUDE_CUSTOM_TRANSFORMER_VER ListAppender:1
+FACTORY_DEF * TeeFactory   FACTORY_NAME "ListAppender_5 Output Output Renamer/Nuker"   INPUT FEATURE_TYPE ListAppender_5_Output   OUTPUT FEATURE_TYPE ListAppender_5_Output
+FACTORY_DEF * TeeFactory   FACTORY_NAME "ListAppender_5 <Rejected> Output Renamer/Nuker"   INPUT FEATURE_TYPE ListAppender_5_<Rejected>   OUTPUT FEATURE_TYPE ListAppender_5_<Rejected>
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME Rejected_5_Logger    INPUT  FEATURE_TYPE ListAppender_5_<Rejected>    OUTPUT FEATURE_TYPE Rejected_5_LOGGED                  @Log("Rejected_5: Feature is:","20","20")                  @FeatureType(Rejected_5_LOGGED)
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Rejected_5 LOGGED Output Nuker"   INPUT FEATURE_TYPE Rejected_5_LOGGED
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME Output_5_Logger    INPUT  FEATURE_TYPE ListAppender_5_Output    OUTPUT FEATURE_TYPE Output_5_LOGGED                  @Log("Output_5: Feature is:","20","20")                  @FeatureType(Output_5_LOGGED)
+
+# -------------------------------------------------------------------------
+
+# The default behaviour is to abort on any feature entering the transformer.
+# If Workbench has set the _WB_BYPASS_TERMINATION macro to a value of "Yes",
+# then the features will instead be passed through with a feature type of
+# __WB_BYPASS_TERMINATOR__, which Workbench will send to a visualizer or
+# somesuch.
+
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TestFactory    FACTORY_NAME Terminator_5    INPUT  FEATURE_TYPE Output_5_LOGGED    TEST "$(_WB_BYPASS_TERMINATION)" == Yes    OUTPUT PASSED FEATURE_TYPE __WB_BYPASS_TERMINATOR__       @SupplyAttributes(_wb_termination_feature_type,@FeatureType())       @SupplyAttributes(ENCODED,_wb_termination_message,"Selecting<space>a<space>non-list<space>attribute<space>should<space>fail")       @SupplyAttributes(_wb_termination_xformer,"Terminator_5")       @SupplyAttributes(_wb_termination_feature,Yes)    OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED,"Selecting<space>a<space>non-list<space>attribute<space>should<space>fail")
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME ListBuilder_2_fme_type_remover    INPUT  FEATURE_TYPE Creator_CREATED_1_Exx7idfjvCA=    OUTPUT FEATURE_TYPE ListBuilder_2_no_fme_type       @RemoveAttributes(fme_type,fme_geometry)
+FACTORY_DEF {*} ListFactory    FACTORY_NAME ListBuilder_2    INPUT FEATURE_TYPE ListBuilder_2_no_fme_type    LIST_NAME "child{}"    LIST_ATTRS_TO_INCLUDE { value }    LIST_ATTRS_TO_INCLUDE_MODE SELECTED    OUTPUT LIST FEATURE_TYPE ListBuilder_2_OUTPUT
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TestFactory    FACTORY_NAME Cloner_CheckCopies    INPUT  FEATURE_TYPE ListBuilder_2_OUTPUT    TEST "3" TYPE INT ENCODED    OUTPUT PASSED FEATURE_TYPE __toOutput__
+FACTORY_DEF * TeeFactory    FACTORY_NAME Cloner_Cloner    INPUT FEATURE_TYPE __toOutput__    NUMBER_OF_COPIES "3"    OUTPUT FEATURE_TYPE Cloner_COPY
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME ListBuilder_3_fme_type_remover    INPUT  FEATURE_TYPE Cloner_COPY    OUTPUT FEATURE_TYPE ListBuilder_3_no_fme_type       @RemoveAttributes(fme_type,fme_geometry)
+FACTORY_DEF {*} ListFactory    FACTORY_NAME ListBuilder_3    INPUT FEATURE_TYPE ListBuilder_3_no_fme_type    LIST_NAME "_parent{}"    LIST_ATTRS_TO_INCLUDE { child<opencurly><closecurly>.value }    LIST_ATTRS_TO_INCLUDE_MODE SELECTED    OUTPUT LIST FEATURE_TYPE ListBuilder_3_OUTPUT
+
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory   FACTORY_NAME "ListAppender_4 Input Input Collector"   INPUT FEATURE_TYPE ListBuilder_3_OUTPUT   OUTPUT FEATURE_TYPE ListAppender_4_Input
+MACRO ListAppender_WORKSPACE_NAME ListAppender_4
+MACRO $(ListAppender_WORKSPACE_NAME)_XFORMER_NAME ListAppender_4
+MACRO $(ListAppender_WORKSPACE_NAME)_TRANSFORMER_GROUP 
+MACRO $(ListAppender_WORKSPACE_NAME)___COMPOUND_PARAMETERS 
+MACRO $(ListAppender_WORKSPACE_NAME)_APPEND_LIST _parent<opencurly>1<closecurly>.child<opencurly>0<closecurly>.value
+MACRO $(ListAppender_WORKSPACE_NAME)_APPEND_VALUES <at>Evaluate<openparen>12.345<closeparen> new<space>string FME_NULL_VALUE Z<u00fc>rich
+INCLUDE PYTHON
+def ParamFunc():
+  return FME_MacroValues[FME_MacroValues['ListAppender_WORKSPACE_NAME'] + '_' + 'APPEND_VALUES']
+value = ParamFunc()
+macroName = FME_MacroValues['ListAppender_WORKSPACE_NAME'] + '_APPEND_VALUES_WWJD'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
+
+INCLUDE_CUSTOM_TRANSFORMER_VER ListAppender:1
+FACTORY_DEF * TeeFactory   FACTORY_NAME "ListAppender_4 Output Output Renamer/Nuker"   INPUT FEATURE_TYPE ListAppender_4_Output   OUTPUT FEATURE_TYPE ListAppender_4_Output
+FACTORY_DEF * TeeFactory   FACTORY_NAME "ListAppender_4 <Rejected> Output Renamer/Nuker"   INPUT FEATURE_TYPE ListAppender_4_<Rejected>   OUTPUT FEATURE_TYPE ListAppender_4_<Rejected>
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME Rejected_4_Logger    INPUT  FEATURE_TYPE ListAppender_4_<Rejected>    OUTPUT FEATURE_TYPE Rejected_4_LOGGED                  @Log("Rejected_4: Feature is:","20","20")                  @FeatureType(Rejected_4_LOGGED)
+
+# -------------------------------------------------------------------------
+
+# The default behaviour is to abort on any feature entering the transformer.
+# If Workbench has set the _WB_BYPASS_TERMINATION macro to a value of "Yes",
+# then the features will instead be passed through with a feature type of
+# __WB_BYPASS_TERMINATOR__, which Workbench will send to a visualizer or
+# somesuch.
+
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TestFactory    FACTORY_NAME Terminator_4    INPUT  FEATURE_TYPE Rejected_4_LOGGED    TEST "$(_WB_BYPASS_TERMINATION)" == Yes    OUTPUT PASSED FEATURE_TYPE __WB_BYPASS_TERMINATOR__       @SupplyAttributes(_wb_termination_feature_type,@FeatureType())       @SupplyAttributes(ENCODED,_wb_termination_message,"Action<space>should<space>not<space>fail")       @SupplyAttributes(_wb_termination_xformer,"Terminator_4")       @SupplyAttributes(_wb_termination_feature,Yes)    OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED,"Action<space>should<space>not<space>fail")
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME Output_4_Logger    INPUT  FEATURE_TYPE ListAppender_4_Output    OUTPUT FEATURE_TYPE Output_4_LOGGED                  @Log("Output_4: Feature is:","20","20")                  @FeatureType(Output_4_LOGGED)
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Output_4 LOGGED Output Nuker"   INPUT FEATURE_TYPE Output_4_LOGGED
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC __WB_BYPASS_TERMINATOR__ <at>Tcl2<openparen>FME_StatMessage<space>818062<space><opencurly><at>Value<openparen>_wb_termination_message<closeparen><space><openparen><at>Value<openparen>_wb_termination_xformer<closeparen><closeparen><closecurly><space>818063<closeparen> TO FME_GENERIC __WB_BYPASS_TERMINATOR__ __wb_out_feat_type__,__WB_BYPASS_TERMINATOR__ GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
+
