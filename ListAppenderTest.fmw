@@ -5,54 +5,54 @@
 #    Command-line to run this workspace:
 #    
 #    
-#    /Library/FME/2017.0/fme /Users/sanderschaminee/FME/Transformers/ListAppender/ListAppender.fmw
+#    /Library/FME/2017.0/fme /Users/sanderschaminee/Documents/GitHub/fme-listappender/ListAppenderTest.fmw
 #    
 #    
-#!   BEGIN_PYTHON=""
-#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
-#!   SHOW_ANNOTATIONS="true"
-#!   WORKSPACE_VERSION="1"
-#!   LAST_SAVE_DATE="2017-09-05T15:00:55"
-#!   ATTR_TYPE_ENCODING="SDF"
-#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
-#!   FME_STROKE_MAX_DEVIATION="0"
-#!   VIEW_POSITION="3664.81 499.15"
-#!   PYTHON_COMPATIBILITY="34"
-#!   DOC_TOP_LEFT="198.023 -2092.38"
-#!   FME_GEOMETRY_HANDLING="Enhanced"
-#!   FME_REPROJECTION_ENGINE="FME"
-#!   BEGIN_TCL=""
-#!   LOG_FILE=""
-#!   DESTINATION="NONE"
-#!   FME_BUILD_NUM="17291"
-#!   DESCRIPTION=""
-#!   TITLE=""
-#!   FME_DOCUMENT_PRIORGUID="7025394a-889d-11e7-8a76-c42c033923d4,16a7f8da-88c5-11e7-8924-c42c033923d4,4740737e-8e32-11e7-84db-c42c033923d4,bcb6304a-8e3b-11e7-91d8-c42c033923d4,fc267ab4-8e4a-11e7-a4bb-c42c033923d4,d85f7bd2-8e4d-11e7-8626-c42c033923d4,f8baf630-8e4e-11e7-9e89-c42c033923d4,d3f379ea-8e52-11e7-8cb7-c42c033923d4,6f0f9f2e-8e55-11e7-9a45-c42c033923d4,50da50f2-8e88-11e7-a4db-c42c033923d4,34f18fc0-8e8a-11e7-84bb-c42c033923d4,a270068a-8f02-11e7-b573-c42c033923d4,2eea8bda-8f03-11e7-a045-c42c033923d4,de9f2d74-8f03-11e7-805c-c42c033923d4,21b9fde0-8f05-11e7-a0b2-c42c033923d4,e6144788-8f08-11e7-ac7d-c42c033923d4,04dd1df6-8f28-11e7-a36e-c42c033923d4,064c73e8-8f29-11e7-9693-c42c033923d4,19a81358-8f2d-11e7-acf2-c42c033923d4"
-#!   LOG_MAX_RECORDED_FEATURES="200"
-#!   FME_DOCUMENT_GUID="931eed80-9232-11e7-9c70-c42c033923d4"
-#!   MARKDOWN_USAGE=""
-#!   HISTORY=""
-#!   SHOW_INFO_NODES="true"
-#!   REDIRECT_TERMINATORS="NONE"
-#!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   SOURCE="NONE"
-#!   WARN_INVALID_XFORM_PARAM="Yes"
-#!   FME_SERVER_SERVICES=""
-#!   IGNORE_READER_FAILURE="No"
-#!   END_PYTHON=""
-#!   END_TCL=""
-#!   PASSWORD=""
-#!   SOURCE_ROUTING_FILE=""
-#!   USE_MARKDOWN=""
-#!   CATEGORY=""
-#!   ZOOM_SCALE="68"
-#!   MAX_LOG_FEATURES="200"
-#!   DESTINATION_ROUTING_FILE=""
-#!   MARKDOWN_DESCRIPTION=""
-#!   DOC_EXTENTS="6629.9 2683.48"
-#!   TERMINATE_REJECTED="NO"
-#!   LAST_SAVE_BUILD="FME(R) 2017.0.1.1 (20170512 - Build 17291 - macosx)"
 #!   USAGE=""
+#!   FME_DOCUMENT_GUID="94d1e2a0-9245-11e7-a637-c42c033923d4"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   USE_MARKDOWN=""
+#!   LAST_SAVE_BUILD="FME(R) 2017.0.1.1 (20170512 - Build 17291 - macosx)"
+#!   LAST_SAVE_DATE="2017-09-05T16:22:00"
+#!   PYTHON_COMPATIBILITY="27"
+#!   END_PYTHON=""
+#!   REDIRECT_TERMINATORS="NONE"
+#!   BEGIN_PYTHON=""
+#!   SHOW_ANNOTATIONS="true"
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   FME_SERVER_SERVICES=""
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   IGNORE_READER_FAILURE="No"
+#!   HISTORY=""
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   LOG_FILE=""
+#!   SOURCE_ROUTING_FILE=""
+#!   CATEGORY=""
+#!   DOC_EXTENTS="6629.9 2683.48"
+#!   DOC_TOP_LEFT="198.023 -2092.38"
+#!   DESCRIPTION=""
+#!   BEGIN_TCL=""
+#!   MARKDOWN_DESCRIPTION=""
+#!   WORKSPACE_VERSION="1"
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   TITLE=""
+#!   FME_DOCUMENT_PRIORGUID="7025394a-889d-11e7-8a76-c42c033923d4,16a7f8da-88c5-11e7-8924-c42c033923d4,4740737e-8e32-11e7-84db-c42c033923d4,bcb6304a-8e3b-11e7-91d8-c42c033923d4,fc267ab4-8e4a-11e7-a4bb-c42c033923d4,d85f7bd2-8e4d-11e7-8626-c42c033923d4,f8baf630-8e4e-11e7-9e89-c42c033923d4,d3f379ea-8e52-11e7-8cb7-c42c033923d4,6f0f9f2e-8e55-11e7-9a45-c42c033923d4,50da50f2-8e88-11e7-a4db-c42c033923d4,34f18fc0-8e8a-11e7-84bb-c42c033923d4,a270068a-8f02-11e7-b573-c42c033923d4,2eea8bda-8f03-11e7-a045-c42c033923d4,de9f2d74-8f03-11e7-805c-c42c033923d4,21b9fde0-8f05-11e7-a0b2-c42c033923d4,e6144788-8f08-11e7-ac7d-c42c033923d4,04dd1df6-8f28-11e7-a36e-c42c033923d4,064c73e8-8f29-11e7-9693-c42c033923d4,19a81358-8f2d-11e7-acf2-c42c033923d4,931eed80-9232-11e7-9c70-c42c033923d4,45138968-9244-11e7-a849-c42c033923d4,dc178918-9244-11e7-bcbe-c42c033923d4"
+#!   MAX_LOG_FEATURES="200"
+#!   END_TCL=""
+#!   SOURCE="NONE"
+#!   MARKDOWN_USAGE=""
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   TERMINATE_REJECTED="NO"
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   SHOW_INFO_NODES="true"
+#!   ZOOM_SCALE="68"
+#!   DESTINATION_ROUTING_FILE=""
+#!   FME_BUILD_NUM="17291"
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   PASSWORD=""
+#!   DESTINATION="NONE"
+#!   VIEW_POSITION="3666.21 485.299"
 #! >
 #! <DATASETS>
 #! </DATASETS>
@@ -77,7 +77,7 @@
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
-#!   COLOUR="1,1,0.784314,0.196078"
+#!   COLOUR="1,1,0.784314,0.192157"
 #!   SIZE_POLICY="10"
 #!   COMMENT_TYPE="REGULAR"
 #!   ANCHORED_NODE="43"
@@ -92,7 +92,7 @@
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
-#!   COLOUR="1,1,0.784314,0.196078"
+#!   COLOUR="1,1,0.784314,0.192157"
 #!   SIZE_POLICY="8"
 #!   COMMENT_TYPE="REGULAR"
 #!   ANCHORED_NODE="42"
@@ -107,7 +107,7 @@
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
-#!   COLOUR="1,1,0.784314,0.196078"
+#!   COLOUR="1,1,0.784314,0.192157"
 #!   SIZE_POLICY="8"
 #!   COMMENT_TYPE="REGULAR"
 #!   ANCHORED_NODE="13"
@@ -122,7 +122,7 @@
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
-#!   COLOUR="1,1,0.784314,0.196078"
+#!   COLOUR="1,1,0.784314,0.192157"
 #!   SIZE_POLICY="8"
 #!   COMMENT_TYPE="REGULAR"
 #!   ANCHORED_NODE="12"
@@ -137,7 +137,7 @@
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
-#!   COLOUR="1,1,0.784314,0.196078"
+#!   COLOUR="1,1,0.784314,0.192157"
 #!   SIZE_POLICY="8"
 #!   COMMENT_TYPE="REGULAR"
 #!   ANCHORED_NODE="23"
@@ -152,7 +152,7 @@
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
-#!   COLOUR="1,1,0.784314,0.196078"
+#!   COLOUR="1,1,0.784314,0.192157"
 #!   SIZE_POLICY="10"
 #!   COMMENT_TYPE="REGULAR"
 #!   ANCHORED_NODE="24"
@@ -167,7 +167,7 @@
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
-#!   COLOUR="1,1,0.784314,0.196078"
+#!   COLOUR="1,1,0.784314,0.192157"
 #!   SIZE_POLICY="10"
 #!   COMMENT_TYPE="REGULAR"
 #!   ANCHORED_NODE="17"
@@ -182,7 +182,7 @@
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
-#!   COLOUR="1,1,0.784314,0.196078"
+#!   COLOUR="1,1,0.784314,0.192157"
 #!   SIZE_POLICY="10"
 #!   COMMENT_TYPE="REGULAR"
 #!   ANCHORED_NODE="14"
@@ -222,7 +222,7 @@
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;helvetica neue&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;Python 2.7&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   POSITION="5882.17 591.098"
 #!   TOP_LEFT="5882.17 591.098"
-#!   BOTTOM_RIGHT="6199.96 477.097"
+#!   BOTTOM_RIGHT="6199.97 477.097"
 #!   BOUNDING_RECT="5882.17 591.098 317.796 114.001"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
@@ -311,16 +311,16 @@
 #! >
 #!     <OUTPUT_FEAT NAME="CREATED"/>
 #!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;space&gt;dimension=&lt;quote&gt;2&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
+#!     <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="value"/>
+#!     <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="3"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator"/>
 #!     <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
 #!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="3"/>
-#!     <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
-#!     <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;space&gt;dimension=&lt;quote&gt;2&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
-#!     <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="value"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="3"
@@ -338,15 +338,15 @@
 #!     <XFORM_ATTR ATTR_NAME="unicode_test" IS_USER_CREATED="true" FEAT_INDEX="0" ATTR_IS_ENABLED="true" ATTR_VALUE="Z&lt;u00fc&gt;rich"/>
 #!     <XFORM_ATTR ATTR_NAME="parent{3}.value" IS_USER_CREATED="true" FEAT_INDEX="0" ATTR_IS_ENABLED="true" ATTR_VALUE="existing&lt;space&gt;string"/>
 #!     <XFORM_ATTR ATTR_NAME="parent{0}" IS_USER_CREATED="true" FEAT_INDEX="0" ATTR_IS_ENABLED="true" ATTR_VALUE="root&lt;space&gt;element"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListBuilder"/>
-#!     <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
-#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="parent"/>
-#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE_MODE" PARM_VALUE="Selected Attributes"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE" PARM_VALUE="value"/>
 #!     <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="parent"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListBuilder"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="14"
@@ -365,13 +365,13 @@
 #!     <XFORM_ATTR ATTR_NAME="unicode_test" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="parent{3}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="parent{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Output"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Feature is:"/>
 #!     <XFORM_PARM PARM_NAME="MAXFEATS" PARM_VALUE="20"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="MAXCOORDS" PARM_VALUE="20"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Output"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="13"
@@ -397,12 +397,12 @@
 #!     <XFORM_ATTR ATTR_NAME="parent{3}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="parent{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_listappender_error" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListAppender"/>
-#!     <XFORM_PARM PARM_NAME="APPEND_VALUES_WWJD" PARM_VALUE="return&lt;space&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;APPEND_VALUES&lt;apos&gt;&lt;closebracket&gt;"/>
-#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="APPEND_LIST" PARM_VALUE="parent&lt;opencurly&gt;0&lt;closecurly&gt;.value"/>
 #!     <XFORM_PARM PARM_NAME="APPEND_VALUES" PARM_VALUE="&lt;at&gt;Evaluate&lt;openparen&gt;12.345&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;unicode_test&lt;closeparen&gt; new&lt;space&gt;string  &lt;at&gt;Value&lt;openparen&gt;parent&lt;opencurly&gt;0&lt;closecurly&gt;.value&lt;closeparen&gt; FME_NULL_VALUE Z&lt;u00fc&gt;rich&lt;space&gt;2"/>
+#!     <XFORM_PARM PARM_NAME="APPEND_LIST" PARM_VALUE="parent&lt;opencurly&gt;0&lt;closecurly&gt;.value"/>
+#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="APPEND_VALUES_WWJD" PARM_VALUE="return&lt;space&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;APPEND_VALUES&lt;apos&gt;&lt;closebracket&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListAppender"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="32"
@@ -422,13 +422,13 @@
 #!     <XFORM_ATTR ATTR_NAME="parent{3}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="parent{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_listappender_error" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Rejected"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Feature is:"/>
 #!     <XFORM_PARM PARM_NAME="MAXFEATS" PARM_VALUE="20"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="MAXCOORDS" PARM_VALUE="20"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Rejected"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="12"
@@ -454,12 +454,12 @@
 #!     <XFORM_ATTR ATTR_NAME="parent{3}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="parent{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_listappender_error" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListAppender_2"/>
-#!     <XFORM_PARM PARM_NAME="APPEND_VALUES_WWJD" PARM_VALUE="return&lt;space&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;APPEND_VALUES&lt;apos&gt;&lt;closebracket&gt;"/>
-#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="APPEND_LIST" PARM_VALUE="parent&lt;opencurly&gt;10&lt;closecurly&gt;.value"/>
 #!     <XFORM_PARM PARM_NAME="APPEND_VALUES" PARM_VALUE="&lt;at&gt;Evaluate&lt;openparen&gt;12.345&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;unicode_test&lt;closeparen&gt; new&lt;space&gt;string  &lt;at&gt;Value&lt;openparen&gt;parent&lt;opencurly&gt;0&lt;closecurly&gt;.value&lt;closeparen&gt; FME_NULL_VALUE Z&lt;u00fc&gt;rich&lt;space&gt;2"/>
+#!     <XFORM_PARM PARM_NAME="APPEND_LIST" PARM_VALUE="parent&lt;opencurly&gt;10&lt;closecurly&gt;.value"/>
+#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="APPEND_VALUES_WWJD" PARM_VALUE="return&lt;space&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;APPEND_VALUES&lt;apos&gt;&lt;closebracket&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListAppender_2"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="17"
@@ -478,13 +478,13 @@
 #!     <XFORM_ATTR ATTR_NAME="unicode_test" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="parent{3}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="parent{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Output_2"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Feature is:"/>
 #!     <XFORM_PARM PARM_NAME="MAXFEATS" PARM_VALUE="20"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="MAXCOORDS" PARM_VALUE="20"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Output_2"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="18"
@@ -504,13 +504,13 @@
 #!     <XFORM_ATTR ATTR_NAME="parent{3}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="parent{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_listappender_error" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Rejected_2"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Feature is:"/>
 #!     <XFORM_PARM PARM_NAME="MAXFEATS" PARM_VALUE="20"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="MAXCOORDS" PARM_VALUE="20"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Rejected_2"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="23"
@@ -536,12 +536,12 @@
 #!     <XFORM_ATTR ATTR_NAME="parent{3}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="parent{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_listappender_error" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListAppender_3"/>
-#!     <XFORM_PARM PARM_NAME="APPEND_VALUES_WWJD" PARM_VALUE="return&lt;space&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;APPEND_VALUES&lt;apos&gt;&lt;closebracket&gt;"/>
-#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="APPEND_LIST" PARM_VALUE="parent&lt;opencurly&gt;0&lt;closecurly&gt;"/>
 #!     <XFORM_PARM PARM_NAME="APPEND_VALUES" PARM_VALUE="&lt;at&gt;Evaluate&lt;openparen&gt;12.345&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;unicode_test&lt;closeparen&gt; new&lt;space&gt;string  &lt;at&gt;Value&lt;openparen&gt;parent&lt;opencurly&gt;0&lt;closecurly&gt;&lt;closeparen&gt; FME_NULL_VALUE Z&lt;u00fc&gt;rich&lt;space&gt;2"/>
+#!     <XFORM_PARM PARM_NAME="APPEND_LIST" PARM_VALUE="parent&lt;opencurly&gt;0&lt;closecurly&gt;"/>
+#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="APPEND_VALUES_WWJD" PARM_VALUE="return&lt;space&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;APPEND_VALUES&lt;apos&gt;&lt;closebracket&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListAppender_3"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="24"
@@ -560,13 +560,13 @@
 #!     <XFORM_ATTR ATTR_NAME="unicode_test" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="parent{3}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="parent{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Output_3"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Feature is:"/>
 #!     <XFORM_PARM PARM_NAME="MAXFEATS" PARM_VALUE="20"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="MAXCOORDS" PARM_VALUE="20"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Output_3"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="25"
@@ -586,13 +586,13 @@
 #!     <XFORM_ATTR ATTR_NAME="parent{3}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="parent{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_listappender_error" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Rejected_3"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Feature is:"/>
 #!     <XFORM_PARM PARM_NAME="MAXFEATS" PARM_VALUE="20"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="MAXCOORDS" PARM_VALUE="20"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Rejected_3"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="31"
@@ -612,11 +612,11 @@
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="child{}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="COPIES" PARM_VALUE="3"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="COPYATT" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Cloner"/>
-#!     <XFORM_PARM PARM_NAME="COPIES" PARM_VALUE="3"/>
-#!     <XFORM_PARM PARM_NAME="COPYATT" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="33"
@@ -632,15 +632,15 @@
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="child{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListBuilder_2"/>
-#!     <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
-#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="child"/>
-#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE_MODE" PARM_VALUE="Selected Attributes"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE" PARM_VALUE="value"/>
 #!     <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="child"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListBuilder_2"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="40"
@@ -655,15 +655,15 @@
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <XFORM_ATTR ATTR_NAME="_parent{}.child{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListBuilder_3"/>
-#!     <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
-#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="_parent"/>
-#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE_MODE" PARM_VALUE="Selected Attributes"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE" PARM_VALUE="child&lt;opencurly&gt;&lt;closecurly&gt;.value"/>
 #!     <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="_parent"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListBuilder_3"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="42"
@@ -683,12 +683,12 @@
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="_parent{}.child{}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_listappender_error" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListAppender_4"/>
-#!     <XFORM_PARM PARM_NAME="APPEND_VALUES_WWJD" PARM_VALUE="return&lt;space&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;APPEND_VALUES&lt;apos&gt;&lt;closebracket&gt;"/>
-#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="APPEND_LIST" PARM_VALUE="_parent&lt;opencurly&gt;1&lt;closecurly&gt;.child&lt;opencurly&gt;0&lt;closecurly&gt;.value"/>
 #!     <XFORM_PARM PARM_NAME="APPEND_VALUES" PARM_VALUE="&lt;at&gt;Evaluate&lt;openparen&gt;12.345&lt;closeparen&gt; new&lt;space&gt;string FME_NULL_VALUE Z&lt;u00fc&gt;rich"/>
+#!     <XFORM_PARM PARM_NAME="APPEND_LIST" PARM_VALUE="_parent&lt;opencurly&gt;1&lt;closecurly&gt;.child&lt;opencurly&gt;0&lt;closecurly&gt;.value"/>
+#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="APPEND_VALUES_WWJD" PARM_VALUE="return&lt;space&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;APPEND_VALUES&lt;apos&gt;&lt;closebracket&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListAppender_4"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="43"
@@ -704,13 +704,13 @@
 #!     <OUTPUT_FEAT NAME="LOGGED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="_parent{}.child{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Output_4"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Feature is:"/>
 #!     <XFORM_PARM PARM_NAME="MAXFEATS" PARM_VALUE="20"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="MAXCOORDS" PARM_VALUE="20"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Output_4"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="44"
@@ -727,13 +727,13 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="_parent{}.child{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_listappender_error" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Rejected_4"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Feature is:"/>
 #!     <XFORM_PARM PARM_NAME="MAXFEATS" PARM_VALUE="20"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="MAXCOORDS" PARM_VALUE="20"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Rejected_4"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="56"
@@ -759,12 +759,12 @@
 #!     <XFORM_ATTR ATTR_NAME="parent{3}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="parent{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_listappender_error" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListAppender_5"/>
-#!     <XFORM_PARM PARM_NAME="APPEND_VALUES_WWJD" PARM_VALUE="return&lt;space&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;APPEND_VALUES&lt;apos&gt;&lt;closebracket&gt;"/>
-#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="APPEND_LIST" PARM_VALUE="unicode_test"/>
 #!     <XFORM_PARM PARM_NAME="APPEND_VALUES" PARM_VALUE="&lt;at&gt;Evaluate&lt;openparen&gt;12.345&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;unicode_test&lt;closeparen&gt; new&lt;space&gt;string  &lt;at&gt;Value&lt;openparen&gt;parent&lt;opencurly&gt;0&lt;closecurly&gt;.value&lt;closeparen&gt; FME_NULL_VALUE Z&lt;u00fc&gt;rich&lt;space&gt;2"/>
+#!     <XFORM_PARM PARM_NAME="APPEND_LIST" PARM_VALUE="unicode_test"/>
+#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="APPEND_VALUES_WWJD" PARM_VALUE="return&lt;space&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;APPEND_VALUES&lt;apos&gt;&lt;closebracket&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListAppender_5"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="59"
@@ -783,13 +783,13 @@
 #!     <XFORM_ATTR ATTR_NAME="unicode_test" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="parent{3}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="parent{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Output_5"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Feature is:"/>
 #!     <XFORM_PARM PARM_NAME="MAXFEATS" PARM_VALUE="20"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="MAXCOORDS" PARM_VALUE="20"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Output_5"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="61"
@@ -809,13 +809,13 @@
 #!     <XFORM_ATTR ATTR_NAME="parent{3}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="parent{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_listappender_error" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Rejected_5"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Feature is:"/>
 #!     <XFORM_PARM PARM_NAME="MAXFEATS" PARM_VALUE="20"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="MAXCOORDS" PARM_VALUE="20"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Rejected_5"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="63"
@@ -828,10 +828,10 @@
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="17291"
 #! >
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Action&lt;space&gt;should&lt;space&gt;not&lt;space&gt;fail"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Terminator"/>
-#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Action&lt;space&gt;should&lt;space&gt;not&lt;space&gt;fail"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="65"
@@ -844,10 +844,10 @@
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="17291"
 #! >
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Selecting&lt;space&gt;a&lt;space&gt;non-list&lt;space&gt;attribute&lt;space&gt;should&lt;space&gt;fail"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Terminator_5"/>
-#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Selecting&lt;space&gt;a&lt;space&gt;non-list&lt;space&gt;attribute&lt;space&gt;should&lt;space&gt;fail"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="67"
@@ -860,10 +860,10 @@
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="17291"
 #! >
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Action&lt;space&gt;should&lt;space&gt;not&lt;space&gt;fail"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Terminator_2"/>
-#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Action&lt;space&gt;should&lt;space&gt;not&lt;space&gt;fail"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="69"
@@ -876,10 +876,10 @@
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="17291"
 #! >
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Action&lt;space&gt;should&lt;space&gt;not&lt;space&gt;fail"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Terminator_3"/>
-#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Action&lt;space&gt;should&lt;space&gt;not&lt;space&gt;fail"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="71"
@@ -892,10 +892,10 @@
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="17291"
 #! >
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Action&lt;space&gt;should&lt;space&gt;not&lt;space&gt;fail"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Terminator_4"/>
-#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Action&lt;space&gt;should&lt;space&gt;not&lt;space&gt;fail"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="73"
@@ -920,13 +920,13 @@
 #!     <XFORM_ATTR ATTR_NAME="unicode_test" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="parent{3}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="parent{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester"/>
 #!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="AND"/>
-#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="NUM_TEST &lt;at&gt;Value&lt;openparen&gt;parent&lt;opencurly&gt;4&lt;closecurly&gt;.value&lt;closeparen&gt; TYPE DOUBLE&#10;TEST &lt;at&gt;Value&lt;openparen&gt;parent&lt;opencurly&gt;5&lt;closecurly&gt;.value&lt;closeparen&gt; = Z&lt;u00fc&gt;rich&#10;STRING_TEST &lt;at&gt;Value&lt;openparen&gt;parent&lt;opencurly&gt;7&lt;closecurly&gt;.value&lt;closeparen&gt; = &quot;&quot;&#10;NUM_TEST &lt;at&gt;Value&lt;openparen&gt;parent&lt;opencurly&gt;8&lt;closecurly&gt;.value&lt;closeparen&gt; TYPE INT&#10;TEST parent&lt;opencurly&gt;9&lt;closecurly&gt;.value ATTRIBUTE_VALUE_NULL &quot;&quot;&#10;TEST &lt;at&gt;Value&lt;openparen&gt;parent&lt;opencurly&gt;10&lt;closecurly&gt;.value&lt;closeparen&gt; ATTRIBUTE_HAS_VALUE &quot;&quot;"/>
-#!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
 #!     <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
+#!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
+#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester"/>
+#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="NUM_TEST &lt;at&gt;Value&lt;openparen&gt;parent&lt;opencurly&gt;4&lt;closecurly&gt;.value&lt;closeparen&gt; TYPE DOUBLE&#10;TEST &lt;at&gt;Value&lt;openparen&gt;parent&lt;opencurly&gt;5&lt;closecurly&gt;.value&lt;closeparen&gt; = Z&lt;u00fc&gt;rich&#10;STRING_TEST &lt;at&gt;Value&lt;openparen&gt;parent&lt;opencurly&gt;7&lt;closecurly&gt;.value&lt;closeparen&gt; = &quot;&quot;&#10;NUM_TEST &lt;at&gt;Value&lt;openparen&gt;parent&lt;opencurly&gt;8&lt;closecurly&gt;.value&lt;closeparen&gt; TYPE INT&#10;TEST parent&lt;opencurly&gt;9&lt;closecurly&gt;.value ATTRIBUTE_VALUE_NULL &quot;&quot;&#10;TEST &lt;at&gt;Value&lt;openparen&gt;parent&lt;opencurly&gt;10&lt;closecurly&gt;.value&lt;closeparen&gt; ATTRIBUTE_HAS_VALUE &quot;&quot;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="75"
@@ -939,10 +939,10 @@
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="17291"
 #! >
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Output&lt;space&gt;value&lt;space&gt;checks&lt;space&gt;failed"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Terminator_6"/>
-#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Output&lt;space&gt;value&lt;space&gt;checks&lt;space&gt;failed"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -1242,7 +1242,7 @@
 #! <LOOKUP_TABLES>
 #! </LOOKUP_TABLES>
 #! </WORKSPACE>
-FME_PYTHON_VERSION 34
+FME_PYTHON_VERSION 27
 #! START_HEADER
 #! START_WB_HEADER
 READER_TYPE NULL
@@ -1259,7 +1259,7 @@ NULL_DEST_DATASET null
 
 #! END_HEADER
 
-LOG_FILENAME "$(FME_MF_DIR)ListAppender.log"
+LOG_FILENAME "$(FME_MF_DIR)ListAppenderTest.log"
 LOG_APPEND NO
 LOG_MAX_FEATURES 200
 LOG_MAX_RECORDED_FEATURES 200
@@ -1274,7 +1274,7 @@ MULTI_READER_CONTINUE_ON_READER_FAILURE No
 
 # -------------------------------------------------------------------------
 
-MACRO WORKSPACE_NAME ListAppender
+MACRO WORKSPACE_NAME ListAppenderTest
 MACRO FME_VIEWER_APP fmedatainspector
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
@@ -1388,6 +1388,48 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME Output_3_Logger    INPUT  FEATURE_TYPE 
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Output_3 LOGGED Output Nuker"   INPUT FEATURE_TYPE Output_3_LOGGED
 # -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory   FACTORY_NAME "ListAppender_5 Input Input Collector"   INPUT FEATURE_TYPE ListBuilder_OUTPUT_3_iJcsqj/BRQs=   OUTPUT FEATURE_TYPE ListAppender_5_Input
+MACRO ListAppender_WORKSPACE_NAME ListAppender_5
+MACRO $(ListAppender_WORKSPACE_NAME)_XFORMER_NAME ListAppender_5
+MACRO $(ListAppender_WORKSPACE_NAME)_TRANSFORMER_GROUP 
+MACRO $(ListAppender_WORKSPACE_NAME)___COMPOUND_PARAMETERS 
+MACRO $(ListAppender_WORKSPACE_NAME)_APPEND_LIST unicode_test
+MACRO $(ListAppender_WORKSPACE_NAME)_APPEND_VALUES <at>Evaluate<openparen>12.345<closeparen> <at>Value<openparen>unicode_test<closeparen> new<space>string  <at>Value<openparen>parent<opencurly>0<closecurly>.value<closeparen> FME_NULL_VALUE Z<u00fc>rich<space>2
+INCLUDE PYTHON
+def ParamFunc():
+  return FME_MacroValues[FME_MacroValues['ListAppender_WORKSPACE_NAME'] + '_' + 'APPEND_VALUES']
+value = ParamFunc()
+macroName = FME_MacroValues['ListAppender_WORKSPACE_NAME'] + '_APPEND_VALUES_WWJD'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
+
+INCLUDE_CUSTOM_TRANSFORMER_VER ListAppender:1
+FACTORY_DEF * TeeFactory   FACTORY_NAME "ListAppender_5 Output Output Renamer/Nuker"   INPUT FEATURE_TYPE ListAppender_5_Output   OUTPUT FEATURE_TYPE ListAppender_5_Output
+FACTORY_DEF * TeeFactory   FACTORY_NAME "ListAppender_5 <Rejected> Output Renamer/Nuker"   INPUT FEATURE_TYPE ListAppender_5_<Rejected>   OUTPUT FEATURE_TYPE ListAppender_5_<Rejected>
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME Rejected_5_Logger    INPUT  FEATURE_TYPE ListAppender_5_<Rejected>    OUTPUT FEATURE_TYPE Rejected_5_LOGGED                  @Log("Rejected_5: Feature is:","20","20")                  @FeatureType(Rejected_5_LOGGED)
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Rejected_5 LOGGED Output Nuker"   INPUT FEATURE_TYPE Rejected_5_LOGGED
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME Output_5_Logger    INPUT  FEATURE_TYPE ListAppender_5_Output    OUTPUT FEATURE_TYPE Output_5_LOGGED                  @Log("Output_5: Feature is:","20","20")                  @FeatureType(Output_5_LOGGED)
+
+# -------------------------------------------------------------------------
+
+# The default behaviour is to abort on any feature entering the transformer.
+# If Workbench has set the _WB_BYPASS_TERMINATION macro to a value of "Yes",
+# then the features will instead be passed through with a feature type of
+# __WB_BYPASS_TERMINATOR__, which Workbench will send to a visualizer or
+# somesuch.
+
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TestFactory    FACTORY_NAME Terminator_5    INPUT  FEATURE_TYPE Output_5_LOGGED    TEST "$(_WB_BYPASS_TERMINATION)" == Yes    OUTPUT PASSED FEATURE_TYPE __WB_BYPASS_TERMINATOR__       @SupplyAttributes(_wb_termination_feature_type,@FeatureType())       @SupplyAttributes(ENCODED,_wb_termination_message,"Selecting<space>a<space>non-list<space>attribute<space>should<space>fail")       @SupplyAttributes(_wb_termination_xformer,"Terminator_5")       @SupplyAttributes(_wb_termination_feature,Yes)    OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED,"Selecting<space>a<space>non-list<space>attribute<space>should<space>fail")
+
+# -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory   FACTORY_NAME "ListAppender Input Input Collector"   INPUT FEATURE_TYPE ListBuilder_OUTPUT_0_JDZQCVAu4hQ=   OUTPUT FEATURE_TYPE ListAppender_Input
 MACRO ListAppender_WORKSPACE_NAME ListAppender
 MACRO $(ListAppender_WORKSPACE_NAME)_XFORMER_NAME ListAppender
@@ -1441,48 +1483,6 @@ FACTORY_DEF * TestFactory    FACTORY_NAME Tester    INPUT  FEATURE_TYPE Output_L
 
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TestFactory    FACTORY_NAME Terminator_6    INPUT  FEATURE_TYPE Tester_FAILED    TEST "$(_WB_BYPASS_TERMINATION)" == Yes    OUTPUT PASSED FEATURE_TYPE __WB_BYPASS_TERMINATOR__       @SupplyAttributes(_wb_termination_feature_type,@FeatureType())       @SupplyAttributes(ENCODED,_wb_termination_message,"Output<space>value<space>checks<space>failed")       @SupplyAttributes(_wb_termination_xformer,"Terminator_6")       @SupplyAttributes(_wb_termination_feature,Yes)    OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED,"Output<space>value<space>checks<space>failed")
-
-# -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory   FACTORY_NAME "ListAppender_5 Input Input Collector"   INPUT FEATURE_TYPE ListBuilder_OUTPUT_3_iJcsqj/BRQs=   OUTPUT FEATURE_TYPE ListAppender_5_Input
-MACRO ListAppender_WORKSPACE_NAME ListAppender_5
-MACRO $(ListAppender_WORKSPACE_NAME)_XFORMER_NAME ListAppender_5
-MACRO $(ListAppender_WORKSPACE_NAME)_TRANSFORMER_GROUP 
-MACRO $(ListAppender_WORKSPACE_NAME)___COMPOUND_PARAMETERS 
-MACRO $(ListAppender_WORKSPACE_NAME)_APPEND_LIST unicode_test
-MACRO $(ListAppender_WORKSPACE_NAME)_APPEND_VALUES <at>Evaluate<openparen>12.345<closeparen> <at>Value<openparen>unicode_test<closeparen> new<space>string  <at>Value<openparen>parent<opencurly>0<closecurly>.value<closeparen> FME_NULL_VALUE Z<u00fc>rich<space>2
-INCLUDE PYTHON
-def ParamFunc():
-  return FME_MacroValues[FME_MacroValues['ListAppender_WORKSPACE_NAME'] + '_' + 'APPEND_VALUES']
-value = ParamFunc()
-macroName = FME_MacroValues['ListAppender_WORKSPACE_NAME'] + '_APPEND_VALUES_WWJD'
-if value == None:
-  return { macroName : '' }
-else:
-  return { macroName : str(value) }
-END_INCLUDE
-
-INCLUDE_CUSTOM_TRANSFORMER_VER ListAppender:1
-FACTORY_DEF * TeeFactory   FACTORY_NAME "ListAppender_5 Output Output Renamer/Nuker"   INPUT FEATURE_TYPE ListAppender_5_Output   OUTPUT FEATURE_TYPE ListAppender_5_Output
-FACTORY_DEF * TeeFactory   FACTORY_NAME "ListAppender_5 <Rejected> Output Renamer/Nuker"   INPUT FEATURE_TYPE ListAppender_5_<Rejected>   OUTPUT FEATURE_TYPE ListAppender_5_<Rejected>
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * TeeFactory    FACTORY_NAME Rejected_5_Logger    INPUT  FEATURE_TYPE ListAppender_5_<Rejected>    OUTPUT FEATURE_TYPE Rejected_5_LOGGED                  @Log("Rejected_5: Feature is:","20","20")                  @FeatureType(Rejected_5_LOGGED)
-
-FACTORY_DEF * TeeFactory   FACTORY_NAME "Rejected_5 LOGGED Output Nuker"   INPUT FEATURE_TYPE Rejected_5_LOGGED
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * TeeFactory    FACTORY_NAME Output_5_Logger    INPUT  FEATURE_TYPE ListAppender_5_Output    OUTPUT FEATURE_TYPE Output_5_LOGGED                  @Log("Output_5: Feature is:","20","20")                  @FeatureType(Output_5_LOGGED)
-
-# -------------------------------------------------------------------------
-
-# The default behaviour is to abort on any feature entering the transformer.
-# If Workbench has set the _WB_BYPASS_TERMINATION macro to a value of "Yes",
-# then the features will instead be passed through with a feature type of
-# __WB_BYPASS_TERMINATOR__, which Workbench will send to a visualizer or
-# somesuch.
-
-DEFAULT_MACRO _WB_BYPASS_TERMINATION No
-FACTORY_DEF * TestFactory    FACTORY_NAME Terminator_5    INPUT  FEATURE_TYPE Output_5_LOGGED    TEST "$(_WB_BYPASS_TERMINATION)" == Yes    OUTPUT PASSED FEATURE_TYPE __WB_BYPASS_TERMINATOR__       @SupplyAttributes(_wb_termination_feature_type,@FeatureType())       @SupplyAttributes(ENCODED,_wb_termination_message,"Selecting<space>a<space>non-list<space>attribute<space>should<space>fail")       @SupplyAttributes(_wb_termination_xformer,"Terminator_5")       @SupplyAttributes(_wb_termination_feature,Yes)    OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED,"Selecting<space>a<space>non-list<space>attribute<space>should<space>fail")
 
 # -------------------------------------------------------------------------
 
