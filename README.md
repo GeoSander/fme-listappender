@@ -27,6 +27,7 @@ Note that if the _ListAppender_ failed to append attributes to the list, the fea
 - This transformer has been tested on Python 2.7 and 3.4.  
 - Released under [GNU General Public License v3.0](https://github.com/SanderSchaminee/fme-listappender/blob/master/LICENSE).  
 - If you notice a bug or desire a new feature, please contact me. Or make a pull request!
+- The [test workspace](https://github.com/SanderSchaminee/fme-listappender/blob/master/ListAppenderTest.fmw) is used for testing and provides some examples.
 
 ## Usage
 
